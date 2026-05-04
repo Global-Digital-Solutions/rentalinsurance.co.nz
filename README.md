@@ -110,7 +110,7 @@ APIFY_API_TOKEN=your_token_here
 ## Quote Form Integration
 
 The quote form submits to FormSubmit.co:
-- **Endpoint**: `https://formsubmit.co/hello@cover4you.co.nz`
+- **Endpoint**: `https://shiny-bush-41cd.darinbutler.workers.dev
 - **CC**: `butlerdarin@gmail.com`
 - **Redirect**: `/thank-you/`
 - **No CAPTCHA**: Disabled for better UX
