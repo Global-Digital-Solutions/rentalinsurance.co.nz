@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Script from 'next/script';
 
 interface QuoteFormProps {
   compact?: boolean;
@@ -127,6 +128,11 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
         <input type="hidden" name="_next" value="https://rentalinsurance.co.nz/thank-you" />
         <input type="hidden" name="_cc" value="butlerdarin@gmail.com" />
         <input type="hidden" name="_captcha" value="false" />
+
+        <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer strategy="afterInteractive" />
+        <div className="flex justify-center">
+          <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-theme="light" />
+        </div>
 
         {/* Submit Button */}
         <div className="pt-2">
@@ -347,6 +353,11 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
         <input type="hidden" name="_next" value="https://rentalinsurance.co.nz/thank-you" />
         <input type="hidden" name="_cc" value="butlerdarin@gmail.com" />
         <input type="hidden" name="_captcha" value="false" />
+
+        <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer strategy="afterInteractive" />
+        <div className="mt-6 flex justify-center">
+          <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-theme="light" />
+        </div>
 
         {/* Submit Button */}
         <div className="mt-8">
