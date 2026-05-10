@@ -36,11 +36,12 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
   if (compact) {
     return (
       <form
-        action="https://shiny-bush-41cd.darinbutler.workers.dev"
+        action="/api/submit-form"
         method="POST"
         onSubmit={handleSubmit}
         className="space-y-4"
       >
+        <input type="text" name="_honey" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
         {trustBadges}
         <div>
           <label htmlFor="full-name" className={labelClass}>
@@ -182,11 +183,12 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
 
       {/* Form Body */}
       <form
-        action="https://shiny-bush-41cd.darinbutler.workers.dev"
+        action="/api/submit-form"
         method="POST"
         onSubmit={handleSubmit}
         className="p-8"
       >
+        <input type="text" name="_honey" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
         <div className="space-y-5">
           {/* Full Name */}
           <div>
