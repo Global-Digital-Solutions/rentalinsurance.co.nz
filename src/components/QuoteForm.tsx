@@ -1,6 +1,7 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, FormEvent } from 'react';
+import { useRouter } from 'next/navigation';
 import Script from 'next/script';
 
 interface QuoteFormProps {
@@ -8,14 +9,38 @@ interface QuoteFormProps {
 }
 
 export default function QuoteForm({ compact = false }: QuoteFormProps) {
+  const router = useRouter();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [focusedField, setFocusedField] = useState<string | null>(null);
+  const [error, setError] = useState('');
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setError('');
+    const fd = new FormData(e.currentTarget);
+    const cfToken = fd.get('cf-turnstile-response');
+    if (!cfToken) {
+      setError('Please wait a moment for the security check to finish, then try again.');
+      return;
+    }
+    const data: Record<string, string> = {};
+    fd.forEach((value, key) => {
+      if (typeof value === 'string') data[key] = value;
+    });
     setIsSubmitting(true);
-    // Form will naturally submit to formsubmit.co
-    // No need to prevent default
-  };
+    try {
+      const res = await fetch('/api/submit-form', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ...data, cfTurnstileToken: cfToken }),
+      });
+      if (!res.ok) throw new Error('Submission failed');
+      router.push('/thank-you/');
+    } catch {
+      setError('Something went wrong. Please try again.');
+      setIsSubmitting(false);
+    }
+  }
 
   const inputClass =
     'w-full px-4 py-3 bg-slate-50 border-2 border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-500 focus:bg-white transition-all duration-200 text-slate-900 placeholder:text-slate-400';
@@ -36,12 +61,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
 
   if (compact) {
     return (
-      <form
-        action="/api/submit-form"
-        method="POST"
-        onSubmit={handleSubmit}
-        className="space-y-4"
-      >
+      <form onSubmit={handleSubmit} className="space-y-4">
         <input type="text" name="_honey" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
         {trustBadges}
         <div>
@@ -133,6 +153,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
         <div className="flex justify-center">
           <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-size="invisible" />
         </div>
+        {error && <p className="text-sm bg-red-50 text-red-700 border border-red-200 rounded-lg px-3 py-2">{error}</p>}
 
         {/* Submit Button */}
         <div className="pt-2">
@@ -188,12 +209,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
       </div>
 
       {/* Form Body */}
-      <form
-        action="/api/submit-form"
-        method="POST"
-        onSubmit={handleSubmit}
-        className="p-8"
-      >
+      <form onSubmit={handleSubmit} className="p-8">
         <input type="text" name="_honey" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
         <div className="space-y-5">
           {/* Full Name */}
@@ -358,6 +374,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
         <div className="mt-6 flex justify-center">
           <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-size="invisible" />
         </div>
+        {error && <p className="text-sm bg-red-50 text-red-700 border border-red-200 rounded-lg px-3 py-2">{error}</p>}
 
         {/* Submit Button */}
         <div className="mt-8">
