@@ -1,8 +1,8 @@
 'use client';
 
-import { useState, FormEvent } from 'react';
+import { useRef, useState, FormEvent } from 'react';
 import { useRouter } from 'next/navigation';
-import Script from 'next/script';
+import TurnstileWidget, { type TurnstileHandle } from './TurnstileWidget';
 
 interface QuoteFormProps {
   compact?: boolean;
@@ -10,6 +10,7 @@ interface QuoteFormProps {
 
 export default function QuoteForm({ compact = false }: QuoteFormProps) {
   const router = useRouter();
+  const turnstileRef = useRef<TurnstileHandle>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [focusedField, setFocusedField] = useState<string | null>(null);
   const [error, setError] = useState('');
@@ -18,17 +19,19 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
     e.preventDefault();
     setError('');
     const fd = new FormData(e.currentTarget);
-    const cfToken = fd.get('cf-turnstile-response');
-    if (!cfToken) {
-      setError('Please wait a moment for the security check to finish, then try again.');
-      return;
-    }
     const data: Record<string, string> = {};
     fd.forEach((value, key) => {
       if (typeof value === 'string') data[key] = value;
     });
     setIsSubmitting(true);
     try {
+      const cfToken = await turnstileRef.current?.execute();
+      if (!cfToken) {
+        setIsSubmitting(false);
+        setError('Security check could not complete. Please try again.');
+        return;
+      }
+
       const res = await fetch('/api/submit-form', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -149,10 +152,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
         <input type="hidden" name="_cc" value="butlerdarin@gmail.com" />
         <input type="hidden" name="_captcha" value="false" />
 
-        <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer strategy="afterInteractive" />
-        <div className="flex justify-center">
-          <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-size="invisible" />
-        </div>
+        <TurnstileWidget ref={turnstileRef} />
         {error && <p className="text-sm bg-red-50 text-red-700 border border-red-200 rounded-lg px-3 py-2">{error}</p>}
 
         {/* Submit Button */}
@@ -370,10 +370,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
         <input type="hidden" name="_cc" value="butlerdarin@gmail.com" />
         <input type="hidden" name="_captcha" value="false" />
 
-        <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer strategy="afterInteractive" />
-        <div className="mt-6 flex justify-center">
-          <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-size="invisible" />
-        </div>
+        <TurnstileWidget ref={turnstileRef} />
         {error && <p className="text-sm bg-red-50 text-red-700 border border-red-200 rounded-lg px-3 py-2">{error}</p>}
 
         {/* Submit Button */}
