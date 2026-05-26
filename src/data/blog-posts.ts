@@ -48,7 +48,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
     `,
     date: '2026-01-12',
-    author: 'Liam Ngata',
+    author: 'Liam N.',
     readTime: 6,
     category: 'Insurance Guide',
     image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&h=400&fit=crop',
@@ -106,7 +106,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
     `,
     date: '2026-02-04',
-    author: 'Sophie Hartley',
+    author: 'Sophie H.',
     readTime: 8,
     category: 'Coverage Guide',
     image: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&h=400&fit=crop',
@@ -160,7 +160,7 @@ export const blogPosts: BlogPost[] = [
       <p>When someone moves out, there's often dispute about damage and who caused it. Make sure you have: (1) clear photos showing condition when you moved in, (2) documentation of what damage existed, (3) individual insurance policies that cover your items, and (4) communication with other flatmates about shared damage.</p>
     `,
     date: '2026-01-27',
-    author: 'Reuben Whitfield',
+    author: 'Reuben W.',
     readTime: 7,
     category: 'Flatmate Guide',
     image: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&h=400&fit=crop',
@@ -232,7 +232,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
     `,
     date: '2026-03-18',
-    author: 'Aroha Patel',
+    author: 'Aroha P.',
     readTime: 8,
     category: 'Student Guide',
     image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&h=400&fit=crop',
@@ -310,7 +310,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
     `,
     date: '2026-02-22',
-    author: 'Callum Te Awa',
+    author: 'Callum T.',
     readTime: 9,
     category: 'Legal Guide',
     image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&h=400&fit=crop',
@@ -396,7 +396,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
     `,
     date: '2026-03-05',
-    author: 'Jessica Morrow',
+    author: 'Jessica M.',
     readTime: 10,
     category: 'Claims Guide',
     image: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&h=400&fit=crop',
