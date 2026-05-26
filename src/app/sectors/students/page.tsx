@@ -237,7 +237,7 @@ export default function StudentsPage() {
               </div>
 
               <div className="space-y-4 mt-8">
-                <h2 className="text-3xl font-bold text-slate-900">Student Insurance Across New Zealand Universities</h2>
+                <h2 className="text-3xl font-bold text-slate-900">Student Insurance Across Our Universities</h2>
                 <p className="text-lg text-slate-600 leading-relaxed">
                   Requirements and common claims vary across New Zealand's major university cities. The University of Auckland explicitly requires contents insurance for all halls residents, with typical coverage needed around $8,000-$12,000 sum insured for those in residential colleges and halls in areas like Mount Eden and Epsom. Auckland's rental market and student accommodation face particular risks around break-ins in older villa-style flats in the student zone.
                 </p>

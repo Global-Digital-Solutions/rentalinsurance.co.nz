@@ -55,7 +55,7 @@ export default function TenantsPage() {
             <div className="lg:col-span-2 space-y-8">
               {/* What is Tenants Insurance */}
               <div>
-                <h2 className="text-3xl font-bold text-slate-900 mb-4">What is Tenants Insurance in New Zealand?</h2>
+                <h2 className="text-3xl font-bold text-slate-900 mb-4">What is Tenants Insurance?</h2>
                 <p className="text-lg text-slate-600 leading-relaxed mb-4">
                   Tenants insurance, also known as renters insurance or contents insurance, is a comprehensive protection plan designed specifically for people renting homes, apartments, or other residential properties in New Zealand. Unlike landlord building insurance which covers the structure of the property itself, tenants insurance protects your personal belongings and shields you from liability claims if you accidentally cause damage to the rental property.
                 </p>
@@ -66,7 +66,7 @@ export default function TenantsPage() {
 
               {/* Why Renters Need Insurance */}
               <div>
-                <h2 className="text-3xl font-bold text-slate-900 mb-4">Why Renters Need Insurance in New Zealand</h2>
+                <h2 className="text-3xl font-bold text-slate-900 mb-4">Why Every Renter Needs Insurance</h2>
                 <p className="text-lg text-slate-600 leading-relaxed mb-4">
                   As a tenant in New Zealand, you're responsible for protecting your personal belongings and managing your liability for accidental damage to the property. Your landlord's building insurance doesn't cover your items or your liability, leaving you exposed to potentially significant financial losses.
                 </p>
@@ -138,7 +138,7 @@ export default function TenantsPage() {
 
               {/* NZ Tenant Law */}
               <div>
-                <h2 className="text-3xl font-bold text-slate-900 mb-4">Understanding NZ Tenant Liability Law</h2>
+                <h2 className="text-3xl font-bold text-slate-900 mb-4">Understanding Tenant Liability Law</h2>
                 <p className="text-lg text-slate-600 leading-relaxed mb-4">
                   The Residential Tenancies Act 2019 fundamentally changed the legal framework for rental relationships in New Zealand. This legislation introduced significant protections for tenants and clarified liability arrangements that directly impact the need for tenants insurance.
                 </p>

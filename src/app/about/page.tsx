@@ -174,7 +174,7 @@ export default function AboutPage() {
 
             {/* The NZ Rental Insurance Market */}
             <div className="bg-slate-50 rounded-lg p-8 border border-slate-200">
-              <h2 className="text-3xl font-bold text-slate-900 mb-6">The NZ Rental Insurance Market</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-6">The Rental Insurance Market</h2>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
                 Rental insurance is increasingly important in New Zealand. Here's why our service matters:
               </p>
@@ -240,7 +240,7 @@ export default function AboutPage() {
 
             {/* Our Commitment to NZ Renters */}
             <div className="bg-emerald-600 text-white rounded-lg p-8">
-              <h2 className="text-3xl font-bold mb-6">Our Commitment to NZ Renters</h2>
+              <h2 className="text-3xl font-bold mb-6">Our Commitment to Renters</h2>
               <p className="text-lg mb-6 text-emerald-50">
                 We're committed to serving New Zealand renters with integrity, transparency, and genuine expertise. Our commitments include:
               </p>

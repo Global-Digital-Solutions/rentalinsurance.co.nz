@@ -220,7 +220,7 @@ export default function HomePage() {
       <section className="py-16 lg:py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
-            What Is Rental Insurance in New Zealand?
+            What Is Rental Insurance?
           </h2>
           <div className="prose prose-lg prose-slate max-w-none space-y-5 text-slate-600 leading-relaxed">
             <p>
@@ -240,7 +240,7 @@ export default function HomePage() {
       <section className="py-16 lg:py-20 bg-slate-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
-            Tenant Liability Law in New Zealand
+            Tenant Liability Law Explained
           </h2>
           <div className="prose prose-lg prose-slate max-w-none space-y-5 text-slate-600 leading-relaxed">
             <p>
@@ -354,7 +354,7 @@ export default function HomePage() {
       <section className="py-16 lg:py-20 bg-slate-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
-            How Much Does Rental Insurance Cost in New Zealand?
+            How Much Does Rental Insurance Cost?
           </h2>
           <div className="prose prose-lg prose-slate max-w-none space-y-5 text-slate-600 leading-relaxed">
             <p>
@@ -424,7 +424,7 @@ export default function HomePage() {
       <section className="py-16 lg:py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
-            Tips for Saving on Rental Insurance in NZ
+            Tips for Saving on Rental Insurance
           </h2>
           <div className="space-y-5 text-slate-600 leading-relaxed text-lg">
             <p>

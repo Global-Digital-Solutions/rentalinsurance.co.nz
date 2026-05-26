@@ -31,7 +31,7 @@ export default function FamiliesPage() {
           <div className="max-w-2xl">
             <Home className="w-12 h-12 text-white mb-4" />
             <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-4">
-              Family Rental Insurance in New Zealand
+              Rental Insurance for Families
             </h1>
             <p className="text-base sm:text-xl text-slate-200 mb-8">
               Comprehensive coverage tailored for families renting homes - protect your family, belongings, and peace of mind with affordable insurance solutions
@@ -54,7 +54,7 @@ export default function FamiliesPage() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
             <div className="lg:col-span-2 space-y-8">
               <div>
-                <h2 className="text-3xl font-bold text-slate-900 mb-6">Family Rental Insurance in New Zealand</h2>
+                <h2 className="text-3xl font-bold text-slate-900 mb-6">Rental Insurance for Families</h2>
                 <p className="text-lg text-slate-600 leading-relaxed mb-4">
                   Families renting homes across New Zealand face unique insurance challenges that individual renters often don't encounter. Whether you're raising young children in an Auckland villa, managing a growing household in Wellington, or settling your family in Christchurch, comprehensive rental insurance is essential to protect your lifestyle and financial security. When you have children, spouses, extended family members, or caregivers living in your rented home, the risks multiply significantly.
                 </p>

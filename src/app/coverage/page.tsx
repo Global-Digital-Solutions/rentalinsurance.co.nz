@@ -160,7 +160,7 @@ export default function CoveragePage() {
 
           {/* Understanding Rental Insurance Coverage */}
           <div className="max-w-4xl mx-auto mb-16">
-            <h2 className="text-3xl font-bold text-slate-900 mb-6">Understanding Rental Insurance Coverage in New Zealand</h2>
+            <h2 className="text-3xl font-bold text-slate-900 mb-6">Understanding Rental Insurance Coverage</h2>
             <div className="space-y-5 text-slate-600 leading-relaxed text-lg">
               <p>
                 Rental insurance in New Zealand — also commonly referred to as tenants insurance, renters insurance, or contents insurance for renters — is designed to protect your personal belongings and cover your financial liability while renting a property. It is important to understand that your landlord's insurance policy covers the building itself (the structure, roof, plumbing, and fixtures), but it does <strong>not</strong> extend to any of your personal possessions inside the home.
@@ -362,7 +362,7 @@ export default function CoveragePage() {
       {/* Earthquake Cover Section */}
       <section className="py-16 lg:py-20 bg-slate-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-slate-900 mb-6">Earthquake Cover for Renters in New Zealand</h2>
+          <h2 className="text-3xl font-bold text-slate-900 mb-6">Earthquake Cover for Renters</h2>
           <div className="space-y-5 text-slate-600 leading-relaxed text-lg">
             <p>
               New Zealand sits on the Pacific Ring of Fire, and earthquake risk is a significant factor for insurance in many parts of the country — particularly Wellington, Christchurch, Hawke's Bay, and the wider Canterbury region. For renters, it is important to understand how earthquake cover works for your personal belongings.
