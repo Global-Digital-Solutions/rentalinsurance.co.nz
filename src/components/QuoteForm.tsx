@@ -172,7 +172,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
         </div>
 
         <p className="text-center text-slate-500 text-xs mt-3">
-          Your data is secure and encrypted. We never share your information.
+          Your data is secure and encrypted. We never sell your information.
         </p>
       </form>
     );
