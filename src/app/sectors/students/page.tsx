@@ -5,7 +5,7 @@ import { GraduationCap, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Student Contents Insurance NZ | Halls & Flat Coverage',
-  description: 'Comprehensive student accommodation insurance for NZ university halls, flats, and shared housing. Affordable coverage from $180-900/year. Compare quotes for electronics, accidental damage, and liability protection.',
+  description: 'Student contents insurance for university halls and flats. Affordable cover from $180/year. Compare quotes for electronics, accidental damage, and liability.',
   alternates: { canonical: 'https://www.rentalinsurance.co.nz/sectors/students/' },
   keywords: 'student rental insurance NZ, university halls insurance, student contents insurance, accommodation insurance students, student tenant coverage',
   openGraph: {
@@ -37,7 +37,7 @@ export default function StudentsPage() {
               Affordable rental contents insurance designed for university halls, student flats, and shared accommodation
             </p>
             <Link
-              href="/contact"
+              href="/contact/"
               className="inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-50 text-emerald-600 font-bold py-3 px-8 rounded-lg transition-colors"
             >
               Get Student Quote

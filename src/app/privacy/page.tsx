@@ -154,8 +154,8 @@ export default function PrivacyPage() {
                 <a href="mailto:hello@cover4you.co.nz" className="text-emerald-600 hover:underline font-medium">
                   hello@cover4you.co.nz
                 </a>. You can also view our{' '}
-                <Link href="/terms" className="text-emerald-600 hover:underline">Terms of Service</Link> and{' '}
-                <Link href="/disclaimer" className="text-emerald-600 hover:underline">Disclaimer</Link>.
+                <Link href="/terms/" className="text-emerald-600 hover:underline">Terms of Service</Link> and{' '}
+                <Link href="/disclaimer/" className="text-emerald-600 hover:underline">Disclaimer</Link>.
               </p>
             </div>
 

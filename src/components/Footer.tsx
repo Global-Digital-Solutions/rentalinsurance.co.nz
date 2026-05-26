@@ -41,27 +41,32 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/coverage" className="text-slate-400 hover:text-emerald-400 transition-colors">
+                <Link href="/coverage/" className="text-slate-400 hover:text-emerald-400 transition-colors">
                   Coverage
                 </Link>
               </li>
               <li>
-                <Link href="/compare" className="text-slate-400 hover:text-emerald-400 transition-colors">
+                <Link href="/compare/" className="text-slate-400 hover:text-emerald-400 transition-colors">
                   Compare Insurers
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="text-slate-400 hover:text-emerald-400 transition-colors">
+                <Link href="/blog/" className="text-slate-400 hover:text-emerald-400 transition-colors">
                   Guides &amp; Resources
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-slate-400 hover:text-emerald-400 transition-colors">
+                <Link href="/about/" className="text-slate-400 hover:text-emerald-400 transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-slate-400 hover:text-emerald-400 transition-colors">
+                <Link href="/claims/" className="text-slate-400 hover:text-emerald-400 transition-colors">
+                  Making a Claim
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact/" className="text-slate-400 hover:text-emerald-400 transition-colors">
                   Get a Quote
                 </Link>
               </li>
@@ -73,22 +78,22 @@ export default function Footer() {
             <h3 className="font-bold text-white mb-4">Who We Help</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/sectors/tenants" className="text-slate-400 hover:text-emerald-400 transition-colors">
+                <Link href="/sectors/tenants/" className="text-slate-400 hover:text-emerald-400 transition-colors">
                   Tenants
                 </Link>
               </li>
               <li>
-                <Link href="/sectors/students" className="text-slate-400 hover:text-emerald-400 transition-colors">
+                <Link href="/sectors/students/" className="text-slate-400 hover:text-emerald-400 transition-colors">
                   Students
                 </Link>
               </li>
               <li>
-                <Link href="/sectors/flatmates" className="text-slate-400 hover:text-emerald-400 transition-colors">
+                <Link href="/sectors/flatmates/" className="text-slate-400 hover:text-emerald-400 transition-colors">
                   Flatmates
                 </Link>
               </li>
               <li>
-                <Link href="/sectors/families" className="text-slate-400 hover:text-emerald-400 transition-colors">
+                <Link href="/sectors/families/" className="text-slate-400 hover:text-emerald-400 transition-colors">
                   Families
                 </Link>
               </li>
@@ -100,17 +105,17 @@ export default function Footer() {
             <h3 className="font-bold text-white mb-4">Legal</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/privacy" className="text-slate-400 hover:text-emerald-400 transition-colors">
+                <Link href="/privacy/" className="text-slate-400 hover:text-emerald-400 transition-colors">
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link href="/terms" className="text-slate-400 hover:text-emerald-400 transition-colors">
+                <Link href="/terms/" className="text-slate-400 hover:text-emerald-400 transition-colors">
                   Terms of Service
                 </Link>
               </li>
               <li>
-                <Link href="/disclaimer" className="text-slate-400 hover:text-emerald-400 transition-colors">
+                <Link href="/disclaimer/" className="text-slate-400 hover:text-emerald-400 transition-colors">
                   Disclaimer
                 </Link>
               </li>

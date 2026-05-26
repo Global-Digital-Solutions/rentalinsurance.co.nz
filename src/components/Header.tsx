@@ -51,25 +51,25 @@ export default function Header() {
               </button>
               <div className="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
                 <Link
-                  href="/sectors/tenants"
+                  href="/sectors/tenants/"
                   className="block px-4 py-2 text-sm text-slate-700 hover:bg-emerald-50 hover:text-emerald-600 first:rounded-t-lg"
                 >
                   Tenants
                 </Link>
                 <Link
-                  href="/sectors/students"
+                  href="/sectors/students/"
                   className="block px-4 py-2 text-sm text-slate-700 hover:bg-emerald-50 hover:text-emerald-600"
                 >
                   Students
                 </Link>
                 <Link
-                  href="/sectors/flatmates"
+                  href="/sectors/flatmates/"
                   className="block px-4 py-2 text-sm text-slate-700 hover:bg-emerald-50 hover:text-emerald-600"
                 >
                   Flatmates
                 </Link>
                 <Link
-                  href="/sectors/families"
+                  href="/sectors/families/"
                   className="block px-4 py-2 text-sm text-slate-700 hover:bg-emerald-50 hover:text-emerald-600 last:rounded-b-lg"
                 >
                   Families
@@ -78,19 +78,19 @@ export default function Header() {
             </div>
 
             <Link
-              href="/coverage"
+              href="/coverage/"
               className="px-3 py-2 text-sm font-medium text-slate-700 hover:text-emerald-600 transition-colors"
             >
               Coverage
             </Link>
             <Link
-              href="/compare"
+              href="/compare/"
               className="px-3 py-2 text-sm font-medium text-slate-700 hover:text-emerald-600 transition-colors"
             >
               Compare
             </Link>
             <Link
-              href="/blog"
+              href="/blog/"
               className="px-3 py-2 text-sm font-medium text-slate-700 hover:text-emerald-600 transition-colors"
             >
               Guides & Resources
@@ -100,7 +100,7 @@ export default function Header() {
           {/* Desktop CTA Button */}
           <div className="hidden lg:block">
             <a
-              href="/contact"
+              href="/contact/"
               className="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-2 px-6 rounded-lg transition-all duration-200 flex items-center gap-2"
             >
               Get a Quote
@@ -137,28 +137,28 @@ export default function Header() {
             {isSectorsOpen && (
               <div className="pl-4 space-y-1">
                 <Link
-                  href="/sectors/tenants"
+                  href="/sectors/tenants/"
                   className="block px-3 py-2 text-sm text-slate-600 hover:bg-emerald-50 rounded-lg"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Tenants
                 </Link>
                 <Link
-                  href="/sectors/students"
+                  href="/sectors/students/"
                   className="block px-3 py-2 text-sm text-slate-600 hover:bg-emerald-50 rounded-lg"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Students
                 </Link>
                 <Link
-                  href="/sectors/flatmates"
+                  href="/sectors/flatmates/"
                   className="block px-3 py-2 text-sm text-slate-600 hover:bg-emerald-50 rounded-lg"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Flatmates
                 </Link>
                 <Link
-                  href="/sectors/families"
+                  href="/sectors/families/"
                   className="block px-3 py-2 text-sm text-slate-600 hover:bg-emerald-50 rounded-lg"
                   onClick={() => setIsMenuOpen(false)}
                 >
@@ -168,28 +168,28 @@ export default function Header() {
             )}
 
             <Link
-              href="/coverage"
+              href="/coverage/"
               className="block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100 rounded-lg"
               onClick={() => setIsMenuOpen(false)}
             >
               Coverage
             </Link>
             <Link
-              href="/compare"
+              href="/compare/"
               className="block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100 rounded-lg"
               onClick={() => setIsMenuOpen(false)}
             >
               Compare
             </Link>
             <Link
-              href="/blog"
+              href="/blog/"
               className="block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100 rounded-lg"
               onClick={() => setIsMenuOpen(false)}
             >
               Guides & Resources
             </Link>
             <a
-              href="/contact"
+              href="/contact/"
               className="block w-full mt-4 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-2 px-4 rounded-lg text-center transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >

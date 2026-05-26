@@ -148,7 +148,7 @@ export default function HowItWorks() {
         {/* CTA */}
         <div className="text-center mt-12">
           <a
-            href="/contact"
+            href="/contact/"
             className="inline-flex items-center justify-center gap-2 bg-white hover:bg-emerald-50 text-emerald-800 font-bold py-3 px-8 rounded-lg transition-colors shadow-lg"
           >
             Start Your Quote

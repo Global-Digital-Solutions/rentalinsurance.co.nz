@@ -5,7 +5,7 @@ import { Star, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Compare Rental Insurance Quotes NZ | Best Renters Insurance Providers',
-  description: 'Compare rental insurance from NZ\'s top providers. See detailed coverage features, prices, and expert ratings. Find the best renters insurance policy for your rental property.',
+  description: 'Compare rental insurance from top providers. See coverage features, prices, and expert ratings side by side to find the best policy for your rental property.',
   alternates: { canonical: 'https://www.rentalinsurance.co.nz/compare/' },
   keywords: 'compare rental insurance NZ, best renters insurance NZ, rental insurance quotes NZ, contents insurance comparison',
 }
@@ -106,7 +106,7 @@ export default function ComparePage() {
                       </div>
 
                       <Link
-                        href="/contact"
+                        href="/contact/"
                         className="block w-full bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-2 px-4 rounded-lg text-center transition-colors"
                       >
                         Get Quote
@@ -167,7 +167,7 @@ export default function ComparePage() {
                         </td>
                         <td className="px-6 py-4 text-center">
                           <Link
-                            href="/contact"
+                            href="/contact/"
                             className="inline-flex items-center justify-center gap-1 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors"
                           >
                             Quote
@@ -352,7 +352,7 @@ export default function ComparePage() {
                     </div>
 
                     <Link
-                      href="/contact"
+                      href="/contact/"
                       className="block w-full bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-3 rounded-lg text-center transition-colors mt-6"
                     >
                       Get Started
@@ -531,7 +531,7 @@ export default function ComparePage() {
               Compare quotes from our leading providers and find the coverage that's right for you at a price that fits your budget.
             </p>
             <Link
-              href="/contact"
+              href="/contact/"
               className="inline-block bg-white text-emerald-600 hover:bg-slate-100 font-bold py-3 px-8 rounded-lg transition-colors text-lg"
             >
               Get Your Comparison Today

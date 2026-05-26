@@ -5,7 +5,7 @@ import { CheckCircle, Home, AlertCircle, TrendingUp, BookOpen, Shield } from 'lu
 
 export const metadata: Metadata = {
   title: 'Tenants Insurance NZ | Rental Insurance & Contents Protection',
-  description: 'Get affordable tenants insurance in New Zealand. Protect your belongings, cover your liability, and understand your rights under the Residential Tenancies Act. Compare quotes from top providers.',
+  description: 'Affordable tenants insurance. Protect your belongings, cover your liability under the Residential Tenancies Act, and compare quotes from leading providers.',
   alternates: { canonical: 'https://www.rentalinsurance.co.nz/sectors/tenants/' },
   openGraph: {
     type: 'website',
@@ -36,7 +36,7 @@ export default function TenantsPage() {
               Protect your belongings and cover your liability while renting your home
             </p>
             <Link
-              href="/contact"
+              href="/contact/"
               className="inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-50 text-emerald-600 font-bold py-3 px-8 rounded-lg transition-colors"
             >
               Get a Quote
@@ -415,7 +415,7 @@ export default function TenantsPage() {
                   Get a no-obligation quote from our comparison service. It takes just 2 minutes and you'll see quotes from multiple providers to find the best price and coverage for your needs.
                 </p>
                 <Link
-                  href="/contact"
+                  href="/contact/"
                   className="inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-8 rounded-lg transition-colors"
                 >
                   Get Your Quote Now

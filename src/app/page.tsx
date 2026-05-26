@@ -137,7 +137,7 @@ export default function HomePage() {
               <Link href="#quote-form" className="rounded-lg bg-emerald-600 px-6 sm:px-8 py-3 font-semibold text-white text-center transition-all hover:bg-emerald-700 hover:shadow-lg">
                 Get a Quote
               </Link>
-              <Link href="/compare" className="rounded-lg border-2 border-white px-6 sm:px-8 py-3 font-semibold text-white text-center transition-all hover:bg-white/10 hover:shadow-lg">
+              <Link href="/compare/" className="rounded-lg border-2 border-white px-6 sm:px-8 py-3 font-semibold text-white text-center transition-all hover:bg-white/10 hover:shadow-lg">
                 Compare Insurers
               </Link>
             </div>
@@ -329,7 +329,7 @@ export default function HomePage() {
               </p>
             </div>
             <Link
-              href="/contact"
+              href="/contact/"
               className="flex-shrink-0 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-2.5 px-6 rounded-lg text-sm transition-colors whitespace-nowrap"
             >
               Get Covered
@@ -490,7 +490,7 @@ export default function HomePage() {
 
           <div className="text-center mt-8">
             <Link
-              href="/contact"
+              href="/contact/"
               className="inline-flex items-center gap-2 text-emerald-600 font-semibold hover:text-emerald-700 transition-colors"
             >
               Still have questions? Get in touch

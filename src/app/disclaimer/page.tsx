@@ -52,7 +52,7 @@ export default function DisclaimerPage() {
               <p className="mt-3">
                 If you have questions about an adviser's licence or regulatory status, you can search the Financial Service Providers Register at{' '}
                 <a
-                  href="https://www.fsp.govt.nz"
+                  href="https://fsp.govt.nz"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-emerald-600 hover:underline"
@@ -172,8 +172,8 @@ export default function DisclaimerPage() {
                 <a href="mailto:hello@cover4you.co.nz" className="text-emerald-600 hover:underline font-medium">
                   hello@cover4you.co.nz
                 </a>. You can also view our{' '}
-                <Link href="/privacy" className="text-emerald-600 hover:underline">Privacy Policy</Link> and{' '}
-                <Link href="/terms" className="text-emerald-600 hover:underline">Terms of Service</Link>.
+                <Link href="/privacy/" className="text-emerald-600 hover:underline">Privacy Policy</Link> and{' '}
+                <Link href="/terms/" className="text-emerald-600 hover:underline">Terms of Service</Link>.
               </p>
             </div>
 

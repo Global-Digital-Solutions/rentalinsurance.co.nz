@@ -147,8 +147,8 @@ export default function TermsPage() {
                 <a href="mailto:hello@cover4you.co.nz" className="text-emerald-600 hover:underline font-medium">
                   hello@cover4you.co.nz
                 </a>. You can also review our{' '}
-                <Link href="/privacy" className="text-emerald-600 hover:underline">Privacy Policy</Link> and{' '}
-                <Link href="/disclaimer" className="text-emerald-600 hover:underline">Disclaimer</Link>.
+                <Link href="/privacy/" className="text-emerald-600 hover:underline">Privacy Policy</Link> and{' '}
+                <Link href="/disclaimer/" className="text-emerald-600 hover:underline">Disclaimer</Link>.
               </p>
             </div>
 

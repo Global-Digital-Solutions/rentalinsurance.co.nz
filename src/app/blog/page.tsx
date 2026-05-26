@@ -97,7 +97,7 @@ export default function BlogPage() {
             After learning about rental insurance, get instant quotes from our top insurers.
           </p>
           <Link
-            href="/contact"
+            href="/contact/"
             className="inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-8 rounded-lg transition-colors"
           >
             Get a Quote

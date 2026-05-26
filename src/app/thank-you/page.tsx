@@ -56,7 +56,7 @@ export default function ThankYouPage() {
           <h3 className="text-lg font-semibold text-slate-900 mb-4">In the meantime:</h3>
           <div className="space-y-3 mb-8">
             <Link
-              href="/coverage"
+              href="/coverage/"
               className="block p-4 bg-slate-50 rounded-lg hover:bg-emerald-50 transition-colors border border-slate-200 hover:border-emerald-300"
             >
               <p className="font-semibold text-slate-900 text-sm">Learn About Coverage</p>
@@ -64,7 +64,7 @@ export default function ThankYouPage() {
             </Link>
 
             <Link
-              href="/compare"
+              href="/compare/"
               className="block p-4 bg-slate-50 rounded-lg hover:bg-emerald-50 transition-colors border border-slate-200 hover:border-emerald-300"
             >
               <p className="font-semibold text-slate-900 text-sm">Compare Insurers</p>
@@ -72,7 +72,7 @@ export default function ThankYouPage() {
             </Link>
 
             <Link
-              href="/blog"
+              href="/blog/"
               className="block p-4 bg-slate-50 rounded-lg hover:bg-emerald-50 transition-colors border border-slate-200 hover:border-emerald-300"
             >
               <p className="font-semibold text-slate-900 text-sm">Guides & Resources</p>

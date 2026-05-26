@@ -12,7 +12,7 @@ export default function CTABanner() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
-            href="/contact"
+            href="/contact/"
             className="inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-100 text-emerald-600 font-bold py-3 px-8 rounded-lg transition-colors"
           >
             Get a Quote
@@ -21,7 +21,7 @@ export default function CTABanner() {
             </svg>
           </Link>
           <Link
-            href="/compare"
+            href="/compare/"
             className="inline-flex items-center justify-center gap-2 bg-emerald-700 hover:bg-emerald-800 text-white font-bold py-3 px-8 rounded-lg transition-colors border-2 border-white/20"
           >
             Compare Insurers

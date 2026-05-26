@@ -5,7 +5,7 @@ import { CheckCircle, XCircle, Shield, DollarSign, Home, Building2, AlertTriangl
 
 export const metadata: Metadata = {
   title: 'Rental Insurance Coverage Guide NZ | What\'s Covered & Excluded',
-  description: 'Complete guide to rental insurance coverage in New Zealand. Learn what\'s covered, what\'s excluded, how much cover you need, tenant liability law, and how to choose the right policy.',
+  description: 'Complete guide to rental insurance coverage. Learn what\'s covered, what\'s excluded, tenant liability law, how much you need, and how to choose the right policy.',
   alternates: { canonical: 'https://www.rentalinsurance.co.nz/coverage/' },
   keywords: 'rental insurance coverage NZ, what is covered, what is excluded, tenant liability insurance NZ, contents insurance guide, rental protection',
   openGraph: {
@@ -122,7 +122,7 @@ export default function CoveragePage() {
                   ))}
                 </ul>
                 <Link
-                  href="/contact"
+                  href="/contact/"
                   className={`w-full block text-center py-3 rounded-lg font-semibold transition-colors ${
                     tier.featured
                       ? 'bg-white text-emerald-600 hover:bg-emerald-50'

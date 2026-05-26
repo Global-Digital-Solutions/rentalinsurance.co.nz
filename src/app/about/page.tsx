@@ -4,7 +4,7 @@ import { Heart, Target, Zap, Users } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'About RentalInsurance.co.nz | Independent Insurance Comparison for NZ Renters',
-  description: 'Learn about RentalInsurance.co.nz, the independent rental insurance comparison platform for New Zealand renters. Compare quotes from top NZ insurers, understand coverage options, and find the best rental insurance for your needs.',
+  description: 'About RentalInsurance.co.nz. Independent rental insurance comparison connecting renters with licensed advisers for the right contents and liability cover.',
   alternates: { canonical: 'https://www.rentalinsurance.co.nz/about/' },
   keywords: 'about rental insurance NZ, independent insurance comparison, tenant insurance comparison, rental protection service',
   openGraph: {
@@ -340,7 +340,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <Link
-                href="/contact"
+                href="/contact/"
                 className="inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-8 rounded-lg transition-colors"
               >
                 Contact Us

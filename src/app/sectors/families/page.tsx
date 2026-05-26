@@ -5,7 +5,7 @@ import { Home, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Family Rental Insurance NZ | Complete Coverage & Protection',
-  description: 'Comprehensive family rental insurance in New Zealand. Protect furniture, appliances, children\'s items, and your liability. Compare quotes from top insurers today.',
+  description: 'Family rental insurance for renting households. Protect furniture, appliances, children\'s items, and your liability. Compare quotes from top insurers today.',
   alternates: { canonical: 'https://www.rentalinsurance.co.nz/sectors/families/' },
   keywords: 'family rental insurance NZ, family contents insurance, tenant insurance families, home rental protection, family liability coverage',
   openGraph: {
@@ -37,7 +37,7 @@ export default function FamiliesPage() {
               Comprehensive coverage tailored for families renting homes - protect your family, belongings, and peace of mind with affordable insurance solutions
             </p>
             <Link
-              href="/contact"
+              href="/contact/"
               className="inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-50 text-emerald-600 font-bold py-3 px-8 rounded-lg transition-colors"
             >
               Get Family Quote

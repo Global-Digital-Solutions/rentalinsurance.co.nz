@@ -37,7 +37,7 @@ export default function FlatmatesPage() {
               Individual coverage for flatmates in shared accommodation - protect yourself and manage liability properly
             </p>
             <Link
-              href="/contact"
+              href="/contact/"
               className="inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-50 text-emerald-600 font-bold py-3 px-8 rounded-lg transition-colors"
             >
               Get Your Quote

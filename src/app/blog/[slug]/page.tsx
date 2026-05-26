@@ -57,7 +57,7 @@ export default async function BlogPostPage({ params }: PageProps) {
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-4xl font-bold text-slate-900 mb-4">Article Not Found</h1>
-          <Link href="/blog" className="text-emerald-600 hover:text-emerald-700">
+          <Link href="/blog/" className="text-emerald-600 hover:text-emerald-700">
             Back to Blog
           </Link>
         </div>
@@ -70,7 +70,7 @@ export default async function BlogPostPage({ params }: PageProps) {
       {/* Header */}
       <div className="bg-gradient-to-br from-emerald-600 to-emerald-700 py-12">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Link href="/blog" className="inline-flex items-center gap-2 text-emerald-100 hover:text-white mb-6">
+          <Link href="/blog/" className="inline-flex items-center gap-2 text-emerald-100 hover:text-white mb-6">
             <ArrowLeft className="w-4 h-4" />
             Back to Blog
           </Link>
