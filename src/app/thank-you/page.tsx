@@ -84,23 +84,14 @@ export default function ThankYouPage() {
         {/* Contact Info */}
         <div className="border-t-2 border-slate-200 pt-8">
           <p className="text-sm text-slate-600 mb-4">
-            Can't wait? Contact us directly:
+            Have a question? Email us directly:
           </p>
-          <div className="space-y-2">
-            <a
-              href="mailto:hello@cover4you.co.nz"
-              className="block text-emerald-600 hover:text-emerald-700 font-semibold"
-            >
-              hello@cover4you.co.nz
-            </a>
-            <a
-              href="tel:098859549"
-              className="block text-emerald-600 hover:text-emerald-700 font-semibold"
-            >
-              09 885 9549
-            </a>
-            <p className="text-xs text-slate-600">Quote RI for best prices</p>
-          </div>
+          <a
+            href="mailto:hello@cover4you.co.nz"
+            className="block text-emerald-600 hover:text-emerald-700 font-semibold"
+          >
+            hello@cover4you.co.nz
+          </a>
         </div>
 
         {/* Back Home */}

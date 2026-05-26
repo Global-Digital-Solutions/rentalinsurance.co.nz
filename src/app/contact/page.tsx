@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
 import QuoteForm from '@/components/QuoteForm'
-import { Mail, Phone, Clock, MapPin } from 'lucide-react'
+import { Mail, Clock } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Contact Us | Rental Insurance NZ',
@@ -62,20 +62,6 @@ export default function ContactPage() {
                     hello@cover4you.co.nz
                   </a>
                   <p className="text-xs text-slate-500 mt-0.5">Email monitored daily</p>
-                </div>
-              </div>
-
-              {/* Phone */}
-              <div className="flex gap-4 items-start">
-                <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl bg-emerald-100 text-emerald-600">
-                  <Phone className="h-5 w-5" />
-                </div>
-                <div>
-                  <p className="font-semibold text-slate-900 text-sm mb-0.5">Phone</p>
-                  <a href="tel:098859549" className="text-emerald-600 hover:text-emerald-700 transition-colors text-sm">
-                    09 885 9549
-                  </a>
-                  <p className="text-xs text-slate-500 mt-0.5">Quote RI for best prices</p>
                 </div>
               </div>
 

@@ -118,14 +118,7 @@ export default function Footer() {
                   hello@cover4you.co.nz
                 </a>
               </li>
-              <li>
-                <a href="tel:09-885-9549" className="text-slate-400 hover:text-emerald-400 transition-colors">
-                  09 885 9549
-                </a>
-              </li>
-              <li className="text-slate-500 text-xs">
-                Quote RI for best prices
-              </li>
+
             </ul>
             <div className="mt-4 space-y-2 text-xs text-slate-500">
               <p>FSP Compliant</p>
