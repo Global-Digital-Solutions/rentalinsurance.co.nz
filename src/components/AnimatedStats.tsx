@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import { Shield, Building2, DollarSign, TrendingDown, Landmark, HeadphonesIcon } from 'lucide-react';
+import { AlertTriangle, Building2, DollarSign, TrendingDown, TrendingUp, Landmark } from 'lucide-react';
 
 interface Stat {
   value: string;
@@ -18,12 +18,12 @@ export default function AnimatedStats() {
   const containerRef = useRef<HTMLDivElement>(null);
 
   const stats: Stat[] = [
-    { value: '50000', label: 'NZ Renters Protected', suffix: '+', prefix: '', icon: Shield },
-    { value: '6', label: 'Top NZ Insurers', suffix: '', prefix: '', icon: Building2 },
+    { value: '1 in 3', label: 'Renters Uninsured', suffix: '', prefix: '', icon: AlertTriangle, isSpecial: true },
+    { value: '10', label: 'Insurers Compared', suffix: '+', prefix: '', icon: Building2 },
     { value: '0', label: 'Comparison Fees', suffix: '', prefix: '$', icon: DollarSign },
-    { value: '20', label: 'Monthly Premium', suffix: '+', prefix: '$', icon: TrendingDown },
+    { value: '$67/mo', label: 'Avg. Monthly Cost', suffix: '', prefix: '', icon: TrendingDown, isSpecial: true },
     { value: '2', label: 'Liability Cover', suffix: 'M', prefix: '$', icon: Landmark },
-    { value: '24/7', label: 'Claims Support', suffix: '', prefix: '', icon: HeadphonesIcon, isSpecial: true },
+    { value: '48', label: 'Premiums Up in 10 Yrs', suffix: '%', prefix: '', icon: TrendingUp },
   ];
 
   useEffect(() => {

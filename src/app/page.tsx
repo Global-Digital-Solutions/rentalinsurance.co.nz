@@ -98,7 +98,7 @@ export default function HomePage() {
 
         <div className="relative z-10 flex h-full flex-col items-start justify-center px-5 sm:px-12 lg:px-20">
           <div className="max-w-2xl">
-            <h1 className="mb-4 sm:mb-6 text-3xl font-bold leading-tight text-white sm:text-5xl lg:text-7xl">
+            <h1 className="mb-4 sm:mb-6 text-2xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
               Protect Your Belongings with the Right Rental Insurance
             </h1>
             <p className="mb-6 sm:mb-8 text-base text-slate-200 sm:text-xl lg:text-2xl">
