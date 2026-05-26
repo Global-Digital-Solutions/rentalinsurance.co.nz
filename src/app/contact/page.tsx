@@ -41,146 +41,117 @@ export default function ContactPage() {
 
       {/* Main Content */}
       <section className="py-16 lg:py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-            {/* Contact Info Sidebar */}
-            <div className="lg:col-span-1">
-              <div className="space-y-8">
-                <h2 className="text-2xl font-bold text-slate-900 mb-6">Get In Touch</h2>
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 lg:gap-14">
 
-                {/* Email */}
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0">
-                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-emerald-100 text-emerald-600">
-                      <Mail className="h-6 w-6" />
-                    </div>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-slate-900 mb-1">Email</h3>
-                    <a
-                      href="mailto:hello@cover4you.co.nz"
-                      className="text-emerald-600 hover:text-emerald-700 transition-colors"
-                    >
-                      hello@cover4you.co.nz
-                    </a>
-                    <p className="text-sm text-slate-600 mt-1">24/7 Support</p>
-                  </div>
+            {/* Contact Info Sidebar — 2 of 5 cols */}
+            <div className="lg:col-span-2 flex flex-col gap-6">
+              <div>
+                <h2 className="text-2xl font-bold text-slate-900 mb-1">Get In Touch</h2>
+                <p className="text-slate-500 text-sm">Our team will be back to you within one business day.</p>
+              </div>
+
+              {/* Email */}
+              <div className="flex gap-4 items-start">
+                <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl bg-emerald-100 text-emerald-600">
+                  <Mail className="h-5 w-5" />
                 </div>
-
-                {/* Phone */}
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0">
-                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-emerald-100 text-emerald-600">
-                      <Phone className="h-6 w-6" />
-                    </div>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-slate-900 mb-1">Phone</h3>
-                    <a
-                      href="tel:098859549"
-                      className="text-emerald-600 hover:text-emerald-700 transition-colors"
-                    >
-                      09 885 9549
-                    </a>
-                    <p className="text-sm text-slate-600 mt-1">Quote RI for best prices</p>
-                  </div>
+                <div>
+                  <p className="font-semibold text-slate-900 text-sm mb-0.5">Email</p>
+                  <a href="mailto:hello@cover4you.co.nz" className="text-emerald-600 hover:text-emerald-700 transition-colors text-sm">
+                    hello@cover4you.co.nz
+                  </a>
+                  <p className="text-xs text-slate-500 mt-0.5">Email monitored daily</p>
                 </div>
+              </div>
 
-                {/* Hours */}
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0">
-                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-emerald-100 text-emerald-600">
-                      <Clock className="h-6 w-6" />
-                    </div>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-slate-900 mb-1">Business Hours</h3>
-                    <p className="text-slate-600 text-sm">Monday – Friday: 9am – 5pm</p>
-                    <p className="text-slate-600 text-sm">Saturday: 10am – 2pm</p>
-                    <p className="text-slate-600 text-sm">Sunday: Closed</p>
-                  </div>
+              {/* Phone */}
+              <div className="flex gap-4 items-start">
+                <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl bg-emerald-100 text-emerald-600">
+                  <Phone className="h-5 w-5" />
                 </div>
+                <div>
+                  <p className="font-semibold text-slate-900 text-sm mb-0.5">Phone</p>
+                  <a href="tel:098859549" className="text-emerald-600 hover:text-emerald-700 transition-colors text-sm">
+                    09 885 9549
+                  </a>
+                  <p className="text-xs text-slate-500 mt-0.5">Quote RI for best prices</p>
+                </div>
+              </div>
 
-                {/* Trust Badges */}
-                <div className="bg-slate-50 rounded-lg p-4 border border-slate-200">
-                  <h4 className="font-semibold text-slate-900 mb-3 text-sm">We're Trusted By</h4>
-                  <ul className="space-y-2 text-sm text-slate-600">
-                    <li className="flex items-center gap-2">
-                      <CheckCircle className="w-4 h-4 text-emerald-600" />
-                      Licensed Brokers
+              {/* Hours */}
+              <div className="flex gap-4 items-start">
+                <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl bg-emerald-100 text-emerald-600">
+                  <Clock className="h-5 w-5" />
+                </div>
+                <div>
+                  <p className="font-semibold text-slate-900 text-sm mb-0.5">Business Hours</p>
+                  <p className="text-slate-600 text-sm">Mon – Fri: 9am – 5pm</p>
+                  <p className="text-slate-600 text-sm">Sat: 10am – 2pm</p>
+                  <p className="text-slate-600 text-sm">Sun: Closed</p>
+                </div>
+              </div>
+
+              {/* Trust block */}
+              <div className="bg-emerald-50 border border-emerald-100 rounded-xl p-5 mt-2">
+                <p className="text-xs font-semibold text-emerald-800 uppercase tracking-wide mb-3">Why use us</p>
+                <ul className="space-y-2 text-sm text-slate-700">
+                  {[
+                    'Licensed insurance advisers',
+                    'FSP compliant referral service',
+                    'No fees — ever',
+                    '100% secure enquiry form',
+                    'NZ owned &amp; operated',
+                  ].map((item) => (
+                    <li key={item} className="flex items-center gap-2">
+                      <CheckCircle className="w-4 h-4 text-emerald-600 flex-shrink-0" />
+                      <span dangerouslySetInnerHTML={{ __html: item }} />
                     </li>
-                    <li className="flex items-center gap-2">
-                      <CheckCircle className="w-4 h-4 text-emerald-600" />
-                      FSP Compliant
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <CheckCircle className="w-4 h-4 text-emerald-600" />
-                      100% Secure
-                    </li>
-                  </ul>
-                </div>
+                  ))}
+                </ul>
               </div>
             </div>
 
-            {/* Quote Form */}
-            <div className="lg:col-span-2">
-              <div className="rounded-2xl border-4 border-emerald-500 bg-white shadow-2xl shadow-emerald-200/60 p-5 sm:p-8 lg:p-10 ring-1 ring-emerald-500/20">
-                {/* Form Header with Badge */}
-                <div className="mb-8">
-                  <div className="inline-flex items-center gap-2 bg-emerald-50 text-emerald-700 text-sm font-semibold px-4 py-1.5 rounded-full mb-4 border border-emerald-200">
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            {/* Quote Form — 3 of 5 cols */}
+            <div className="lg:col-span-3">
+              <div className="rounded-2xl border-2 border-emerald-400 bg-white shadow-lg shadow-emerald-100/60 p-6 sm:p-8">
+                <div className="mb-6">
+                  <div className="inline-flex items-center gap-2 bg-emerald-50 text-emerald-700 text-xs font-semibold px-3 py-1.5 rounded-full mb-4 border border-emerald-200">
+                    <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                     Takes less than 2 minutes
                   </div>
-                  <h2 className="text-2xl font-bold text-slate-900 mb-2">
-                    Get a Quote
-                  </h2>
-                  <p className="text-slate-600">
-                    Fill out the form below and we'll contact you with quotes from NZ's leading insurers.
+                  <h2 className="text-xl font-bold text-slate-900 mb-1">Get a Quote</h2>
+                  <p className="text-slate-500 text-sm">
+                    Submit your details and we'll connect you with quotes from leading insurers.
                   </p>
                 </div>
+
                 <QuoteForm compact={true} />
 
-                {/* Trust Badges Below Form */}
-                <div className="mt-8 pt-6 border-t border-slate-200">
-                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
-                    <div className="flex flex-col items-center gap-2">
-                      <div className="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center">
-                        <svg className="w-5 h-5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                        </svg>
+                <div className="mt-6 pt-5 border-t border-slate-100">
+                  <div className="grid grid-cols-4 gap-2 text-center">
+                    {[
+                      { icon: 'M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z', label: 'Licensed' },
+                      { icon: 'M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z', label: 'No Fees' },
+                      { icon: 'M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z', label: 'Secure' },
+                      { icon: 'M13 10V3L4 14h7v7l9-11h-7z', label: 'Quick' },
+                    ].map((b) => (
+                      <div key={b.label} className="flex flex-col items-center gap-1.5">
+                        <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center">
+                          <svg className="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={b.icon} />
+                          </svg>
+                        </div>
+                        <span className="text-xs font-semibold text-slate-600">{b.label}</span>
                       </div>
-                      <span className="text-xs font-semibold text-slate-700">Licensed Brokers</span>
-                    </div>
-                    <div className="flex flex-col items-center gap-2">
-                      <div className="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center">
-                        <svg className="w-5 h-5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                      </div>
-                      <span className="text-xs font-semibold text-slate-700">No Broker Fees</span>
-                    </div>
-                    <div className="flex flex-col items-center gap-2">
-                      <div className="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center">
-                        <svg className="w-5 h-5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-                        </svg>
-                      </div>
-                      <span className="text-xs font-semibold text-slate-700">100% Secure</span>
-                    </div>
-                    <div className="flex flex-col items-center gap-2">
-                      <div className="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center">
-                        <svg className="w-5 h-5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                        </svg>
-                      </div>
-                      <span className="text-xs font-semibold text-slate-700">Instant Quotes</span>
-                    </div>
+                    ))}
                   </div>
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </section>
