@@ -19,7 +19,15 @@ export default function Footer() {
               Helping renters and tenants across New Zealand find the right contents insurance — no fees, no fuss.
             </p>
             <p className="text-xs text-slate-500">
-              Powered by <span className="text-emerald-400 font-medium">Cover4You</span>
+              Powered by{' '}
+              <a
+                href="https://www.cover4you.co.nz"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-emerald-400 font-medium hover:text-emerald-300 transition-colors"
+              >
+                Cover4You
+              </a>
             </p>
           </div>
 
