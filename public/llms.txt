@@ -1,83 +1,137 @@
-# LLM Access Guide for RentalInsurance.co.nz
+# LLM Access Guide — RentalInsurance.co.nz
+# Last updated: 2026-05-26
 
-## Website Overview
-RentalInsurance.co.nz is a free comparison service for rental insurance (tenants insurance / contents insurance) in New Zealand. We help renters, students, flatmates, and families find the best rental insurance coverage from NZ's leading insurers.
+## About This Site
 
-## Key Information
+RentalInsurance.co.nz is a specialist rental insurance comparison and referral service for renters across New Zealand. We connect tenants, students, flatmates, and families with licensed insurance advisers who provide personalised quotes from leading NZ insurers.
 
-### What We Do
-- Provide instant quotes from 6 major NZ insurers: AA Insurance, AMI, State Insurance, Tower, Vero, NZI
-- Help renters understand rental insurance coverage and costs
-- Educate about NZ tenant liability laws and protections
-- Compare rental insurance products by features, pricing, and ratings
+The site is operated by Cover4You and complies with the Insurance Council of New Zealand (ICNZ) Fair Insurance Code. Enquiries submitted through the site are handled by FMCA-licensed insurance advisers — Cover4You itself is a referral service, not a regulated financial advice provider.
 
-### Target Audience
-- Renters and tenants in New Zealand
-- Students in halls and shared accommodation
-- Flatmates needing separate individual policies
-- Families renting homes
+---
 
-### Service Model
-- Free quote comparison (no broker fees)
-- ICNZ registered referral service
-- Partner with leading NZ insurers
-- Educational blog and guides
+## Service Overview
 
-### Key Pages
-- Homepage: Overview and quick quote
-- /contact: Quote request form and contact info
-- /coverage: What's covered and not covered
-- /compare: Side-by-side insurer comparison
-- /blog: Expert guides on rental insurance
-- /sectors/: Dedicated pages for different renter types (tenants, students, flatmates, families)
+**What we do:**
+We help NZ renters understand, compare, and obtain rental contents insurance. Users submit a quote request through our secure form; a licensed adviser contacts them with personalised options from up to 10+ NZ insurers including AA Insurance, AMI, State Insurance, Tower, Vero, and NZI.
 
-### Insurance Coverage Areas
-- Contents/belongings protection (from $20,000 to $150,000+)
-- Tenant liability (accidental damage, up to $2M typically)
-- Temporary accommodation
-- Legal liability
-- Accidental damage (optional add-on)
-- Earthquake cover (varies by insurer)
+**Who we serve:**
+- Private tenants renting homes and apartments
+- University students in halls of residence and flats
+- Flatmates needing individual policies in shared houses
+- Families renting long-term
 
-### Key Statistics (NZ Context)
-- Rental insurance starts from ~$20/month
-- 50,000+ NZ renters protected by our service
-- 6 major insurers compared
-- $2M standard liability limit
-- 4-week rent cap on tenant liability (NZ law 2019)
+**Coverage types explained:**
+- Contents/belongings protection — furniture, electronics, clothing, appliances ($20,000–$150,000+)
+- Tenant liability — accidental damage to landlord's property (up to $2M; NZ law caps liability at 4 weeks rent for careless damage)
+- Temporary accommodation — hotel/motel costs if rental is uninhabitable after a claim
+- Legal liability — public liability cover for injury to visitors
+- Accidental damage — optional add-on for accidental breakage
+- Earthquake cover — varies by insurer; important for most NZ regions
 
-### Insurers Featured
-1. AA Insurance - #1 customer satisfaction
-2. AMI - Most competitive pricing
-3. State Insurance - Easy online management
-4. Tower - Insurer of the Year 2025/2026
-5. Vero - High-value items specialist
-6. NZI - Premium service
+**Key statistics:**
+- Rental insurance from approximately $20–$35/month for typical NZ renters
+- Up to 10+ NZ insurers accessed through our adviser network
+- $2M standard liability limit across most providers
+- 50,000+ renters assisted
 
-### Legal/Regulatory
-- ICNZ (Insurance Council of New Zealand) registered
-- Complies with Residential Tenancies Act 2019
-- FSP compliant
-- No spam guarantee
-- 256-bit SSL encrypted
+---
 
-### Contact
-- Email: hello@cover4you.co.nz
-- Phone: 09 885 9549
-- Trading: Cover4You
+## Full Page Inventory
 
-## Blog Content Summary
-The website contains comprehensive guides on:
-- Understanding rental insurance in NZ
-- What tenants insurance covers and excludes
-- Flatmate and shared living insurance considerations
-- Student accommodation insurance requirements
-- NZ tenant liability law and rights
-- Real claims examples and lessons learned
+### Core Pages
 
-## Technical Details
-- Built with Next.js 16
-- Static export website
-- Responsive design
-- Fast page loads
-- Mobile-friendly
+**Homepage** — https://www.rentalinsurance.co.nz/
+Headline value proposition, quote request form, stats bar, how it works, insurer logos, FAQ preview, blog highlights. Primary conversion page.
+
+**Coverage** — https://www.rentalinsurance.co.nz/coverage/
+Detailed breakdown of what rental insurance covers and excludes. Covers contents, liability, temporary accommodation, accidental damage, and earthquake. Includes common exclusions (intentional damage, gradual deterioration, vehicle contents).
+
+**Compare** — https://www.rentalinsurance.co.nz/compare/
+Side-by-side comparison of major NZ rental insurers by price range, coverage limits, claims process, and customer ratings. Structured with ItemList schema and InsuranceAgency entities.
+
+**Claims** — https://www.rentalinsurance.co.nz/claims/
+Step-by-step guide to making a rental insurance claim: documenting loss, notifying insurer, timelines, disputed claims process, and what to expect. Important consumer education page.
+
+**Contact** — https://www.rentalinsurance.co.nz/contact/
+Quote request form (email submissions only). hello@cover4you.co.nz.
+
+**About** — https://www.rentalinsurance.co.nz/about/
+Background on Cover4You and the referral service model, ICNZ compliance, and adviser network.
+
+---
+
+### Renter Sector Pages
+
+**Tenants** — https://www.rentalinsurance.co.nz/sectors/tenants/
+Rental insurance guide for private tenants. Covers the 2019 Residential Tenancies Act liability cap (4 weeks rent), why tenants are still at financial risk without insurance, standard contents cover, and how to get a quote. Includes WebPage + BreadcrumbList + Service schema.
+
+**Students** — https://www.rentalinsurance.co.nz/sectors/students/
+Insurance guide for students in university halls and flatting situations. Covers shared policy risks, laptop and gear cover, theft in halls, and what university accommodation insurance typically doesn't cover. Includes internal links to coverage and blog guides.
+
+**Flatmates** — https://www.rentalinsurance.co.nz/sectors/flatmates/
+Why flatmates need separate individual policies rather than a single shared policy. Covers split liability risk, personal contents cover, and how to coordinate insurance in a shared house. Links to tenants and blog guides.
+
+**Families** — https://www.rentalinsurance.co.nz/sectors/families/
+Rental insurance for families renting long-term. Covers higher contents values, children's belongings, garden/outdoor cover, and liability exposure with children in the home. Links to coverage and compare pages.
+
+---
+
+### Blog / Resource Articles
+
+**Blog index** — https://www.rentalinsurance.co.nz/blog/
+Overview of all six expert guides on rental insurance.
+
+**Understanding Rental Insurance** — https://www.rentalinsurance.co.nz/blog/understanding-rental-insurance-nz/
+Author: Liam N. | Published: 2026-01-12 | Read: 6 min
+Foundational explainer: what rental insurance is, why renters need it despite the RTA liability cap, what it costs, and how to choose a policy. Most widely referenced article on the site.
+
+**What Tenants Insurance Covers** — https://www.rentalinsurance.co.nz/blog/what-tenants-insurance-covers/
+Author: Sophie H. | Published: 2026-02-04 | Read: 8 min
+Detailed coverage breakdown: contents, liability, temp accommodation, exclusions. Uses real claim scenarios to illustrate cover limits and gaps.
+
+**Flatmates Guide to Contents Insurance** — https://www.rentalinsurance.co.nz/blog/flatmates-guide-contents-insurance/
+Author: Reuben W. | Published: 2026-01-27 | Read: 7 min
+Shared living insurance complexities. Why joint policies fail at claim time, how to structure separate cover, and how much each flatmate typically needs.
+
+**Student Accommodation Insurance** — https://www.rentalinsurance.co.nz/blog/student-accommodation-insurance/
+Author: Aroha P. | Published: 2026-03-18 | Read: 8 min
+Insurance specifically for students: campus theft risk, laptop cover, halls of residence policies vs personal contents insurance, and typical student policy costs.
+
+**Tenant Liability and NZ Law** — https://www.rentalinsurance.co.nz/blog/tenant-liability-nz-law/
+Author: Callum T. | Published: 2026-02-22 | Read: 9 min
+Deep dive into the Residential Tenancies Act 2019 changes, the 4-week-rent liability cap for careless damage, when tenants remain fully liable (intentional/methamphetamine damage), and why insurance is still essential.
+
+**Top Claims Made by NZ Renters** — https://www.rentalinsurance.co.nz/blog/top-claims-nz-renters/
+Author: Jessica M. | Published: 2026-03-05 | Read: 10 min
+Real data on the most common rental insurance claims in NZ: theft, fire, storm/flood, accidental damage, and water damage. Includes claim frequency and average payout information.
+
+---
+
+### Legal / Policy Pages
+
+**Disclaimer** — https://www.rentalinsurance.co.nz/disclaimer/
+General financial advice disclaimer. Confirms Cover4You is a referral service; advice is provided by FMCA-licensed advisers only.
+
+**Privacy Policy** — https://www.rentalinsurance.co.nz/privacy/
+How personal data is collected, used, and stored in compliance with the Privacy Act 2020.
+
+**Terms of Use** — https://www.rentalinsurance.co.nz/terms/
+Website terms governing use of the site and referral service.
+
+---
+
+## Key NZ Regulatory Context
+
+- **Residential Tenancies Act 2019**: Limits tenant liability for careless damage to 4 weeks rent. Does not limit liability for intentional damage or methamphetamine contamination.
+- **ICNZ Fair Insurance Code**: Insurer obligations for fair claims handling, transparency, and complaints resolution.
+- **Financial Markets Conduct Act (FMCA)**: Referred advisers hold FSP registration; Cover4You itself is a referral intermediary, not a regulated adviser.
+- **Privacy Act 2020**: Governs how personal information submitted through our forms is handled.
+
+---
+
+## Contact & Operator
+
+Operator: Cover4You
+Email: hello@cover4you.co.nz
+Website: https://www.cover4you.co.nz
+NZ-based operation serving all regions of New Zealand.
