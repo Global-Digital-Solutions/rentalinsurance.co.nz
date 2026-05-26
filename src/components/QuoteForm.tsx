@@ -148,7 +148,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
 
         {/* Hidden Fields */}
         <input type="hidden" name="_subject" value="New Quote Request - RentalInsurance.co.nz" />
-        <input type="hidden" name="_next" value="https://rentalinsurance.co.nz/thank-you" />
+        <input type="hidden" name="_next" value="https://www.rentalinsurance.co.nz/thank-you" />
         <input type="hidden" name="_cc" value="butlerdarin@gmail.com" />
         <input type="hidden" name="_captcha" value="false" />
 
@@ -366,7 +366,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
 
         {/* Hidden Fields */}
         <input type="hidden" name="_subject" value="New Quote Request - RentalInsurance.co.nz" />
-        <input type="hidden" name="_next" value="https://rentalinsurance.co.nz/thank-you" />
+        <input type="hidden" name="_next" value="https://www.rentalinsurance.co.nz/thank-you" />
         <input type="hidden" name="_cc" value="butlerdarin@gmail.com" />
         <input type="hidden" name="_captcha" value="false" />
 

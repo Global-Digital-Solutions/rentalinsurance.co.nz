@@ -24,13 +24,13 @@ export const metadata: Metadata = {
     'Rental Insurance NZ | Compare & Save | RentalInsurance.co.nz',
   description:
     'Compare rental insurance quotes from NZ leading insurers. Get instant quotes, save time and money on your tenant and contents insurance cover.',
-  alternates: { canonical: 'https://rentalinsurance.co.nz/' },
+  alternates: { canonical: 'https://www.rentalinsurance.co.nz/' },
   openGraph: {
     title:
       'Rental Insurance NZ | Compare & Save | RentalInsurance.co.nz',
     description:
       'Compare rental insurance quotes from NZ leading insurers. Get instant quotes, save time and money on your tenant and contents insurance cover.',
-    url: 'https://rentalinsurance.co.nz/',
+    url: 'https://www.rentalinsurance.co.nz/',
   },
 }
 

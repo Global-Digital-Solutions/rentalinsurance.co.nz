@@ -6,7 +6,7 @@ import { Clock, User, BookOpen } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Guides & Resources | Rental Insurance NZ',
   description: 'Expert guides and articles about rental insurance, tenant rights, and student accommodation insurance in New Zealand.',
-  alternates: { canonical: 'https://rentalinsurance.co.nz/blog/' },
+  alternates: { canonical: 'https://www.rentalinsurance.co.nz/blog/' },
   keywords: 'rental insurance blog, tenant guides NZ, rental insurance tips, student accommodation insurance, renters advice',
   openGraph: {
     title: 'Guides & Resources | Rental Insurance NZ',
@@ -116,7 +116,7 @@ export default function BlogPage() {
             '@type': 'CollectionPage',
             name: 'Rental Insurance Guides & Resources NZ',
             description: 'Expert guides and articles about rental insurance in New Zealand',
-            url: 'https://rentalinsurance.co.nz/blog/',
+            url: 'https://www.rentalinsurance.co.nz/blog/',
           }),
         }}
       />

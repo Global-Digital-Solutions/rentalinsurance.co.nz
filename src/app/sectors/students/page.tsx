@@ -6,7 +6,7 @@ import { GraduationCap, CheckCircle } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Student Contents Insurance NZ | Halls & Flat Coverage',
   description: 'Comprehensive student accommodation insurance for NZ university halls, flats, and shared housing. Affordable coverage from $180-900/year. Compare quotes for electronics, accidental damage, and liability protection.',
-  alternates: { canonical: 'https://rentalinsurance.co.nz/sectors/students/' },
+  alternates: { canonical: 'https://www.rentalinsurance.co.nz/sectors/students/' },
   keywords: 'student rental insurance NZ, university halls insurance, student contents insurance, accommodation insurance students, student tenant coverage',
   openGraph: {
     title: 'Student Contents Insurance NZ | Halls & Flat Coverage',
@@ -310,21 +310,54 @@ export default function StudentsPage() {
         </div>
       </section>
 
+      {/* Internal Links */}
+      <section className="py-10 bg-slate-50 border-t border-slate-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-lg font-bold text-slate-900 mb-5">Explore More</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            {[
+              { href: '/coverage', label: "What's Covered", desc: 'Full coverage details' },
+              { href: '/compare', label: 'Compare Insurers', desc: 'Side-by-side comparison' },
+              { href: '/blog/student-accommodation-insurance', label: 'Student Guide', desc: 'Accommodation insurance' },
+              { href: '/sectors/flatmates', label: 'Flatmate Insurance', desc: 'Cover for shared flats' },
+            ].map((l) => (
+              <Link key={l.href} href={l.href} className="block bg-white rounded-xl border border-slate-200 hover:border-emerald-400 hover:shadow-md transition-all p-4 group">
+                <p className="font-semibold text-slate-900 text-sm group-hover:text-emerald-700">{l.label}</p>
+                <p className="text-xs text-slate-500 mt-0.5">{l.desc}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
-            '@type': 'Service',
+            '@type': 'WebPage',
             name: 'Student Contents Insurance',
-            description: 'Comprehensive rental insurance for students in New Zealand university halls, flats, and shared accommodation',
-            provider: {
-              '@type': 'Organization',
-              name: 'Rental Insurance NZ',
+            description: 'Rental insurance for students in New Zealand university halls, flats, and shared accommodation',
+            url: 'https://www.rentalinsurance.co.nz/sectors/students/',
+            datePublished: '2026-04-03',
+            dateModified: '2026-05-26',
+            author: { '@type': 'Organization', name: 'Rental Insurance NZ', url: 'https://www.rentalinsurance.co.nz' },
+            breadcrumb: {
+              '@type': 'BreadcrumbList',
+              itemListElement: [
+                { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.rentalinsurance.co.nz/' },
+                { '@type': 'ListItem', position: 2, name: 'Students', item: 'https://www.rentalinsurance.co.nz/sectors/students/' },
+              ],
             },
-            areaServed: 'NZ',
-            serviceType: 'Contents Insurance',
-            url: 'https://rentalinsurance.co.nz/sectors/students/',
+            mainEntity: {
+              '@type': 'Service',
+              name: 'Student Contents Insurance',
+              description: 'Contents insurance for students in halls and shared flats',
+              provider: { '@type': 'Organization', name: 'Rental Insurance NZ', url: 'https://www.rentalinsurance.co.nz' },
+              areaServed: { '@type': 'Country', name: 'New Zealand' },
+              serviceType: 'Contents Insurance',
+              url: 'https://www.rentalinsurance.co.nz/sectors/students/',
+            },
           }),
         }}
       />

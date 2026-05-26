@@ -3,9 +3,20 @@ import Link from 'next/link';
 import { AlertCircle, Clock, Mail, FileText, Heart, ShieldCheck, ChevronRight } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Making a Claim | RentalInsurance.co.nz',
-  description: 'How to make a rental property contents and liability insurance claim, our complaints process, and support for vulnerable customers. RentalInsurance.co.nz is a referral service — claims are handled directly by your insurer.',
-  alternates: { canonical: 'https://rentalinsurance.co.nz/claims/' },
+  title: 'Making a Claim | Rental Insurance NZ',
+  description: 'How to make a rental contents or liability insurance claim. Step-by-step guidance, your insurer\'s contact details, and what to do if a claim is disputed.',
+  alternates: { canonical: 'https://www.rentalinsurance.co.nz/claims/' },
+  keywords: 'rental insurance claim NZ, how to claim contents insurance, tenant insurance claim, make a claim renters insurance, disputed insurance claim NZ',
+  openGraph: {
+    title: 'Making a Claim | Rental Insurance NZ',
+    description: 'Step-by-step guide to making a rental insurance claim in New Zealand.',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Making a Claim | Rental Insurance NZ',
+    description: 'Step-by-step guide to making a rental insurance claim.',
+  },
 };
 
 export default function ClaimsPage() {
@@ -13,8 +24,8 @@ export default function ClaimsPage() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://rentalinsurance.co.nz' },
-      { '@type': 'ListItem', position: 2, name: 'Making a Claim', item: 'https://rentalinsurance.co.nz/claims/' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.rentalinsurance.co.nz' },
+      { '@type': 'ListItem', position: 2, name: 'Making a Claim', item: 'https://www.rentalinsurance.co.nz/claims/' },
     ],
   };
 

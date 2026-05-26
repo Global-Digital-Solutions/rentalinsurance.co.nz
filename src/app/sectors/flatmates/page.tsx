@@ -6,7 +6,7 @@ import { Users, CheckCircle } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Flatmate & Shared Accommodation Insurance | NZ',
   description: 'Individual rental insurance for flatmates and shared living situations in New Zealand. Separate coverage for shared flats.',
-  alternates: { canonical: 'https://rentalinsurance.co.nz/sectors/flatmates/' },
+  alternates: { canonical: 'https://www.rentalinsurance.co.nz/sectors/flatmates/' },
   keywords: 'flatmate insurance NZ, shared flat insurance, flatmate contents insurance, shared accommodation coverage, rental insurance flatmates',
   openGraph: {
     title: 'Flatmate & Shared Accommodation Insurance | NZ',
@@ -442,19 +442,53 @@ export default function FlatmatesPage() {
         </div>
       </section>
 
+      {/* Internal Links */}
+      <section className="py-10 bg-slate-50 border-t border-slate-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-lg font-bold text-slate-900 mb-5">Explore More</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            {[
+              { href: '/coverage', label: "What's Covered", desc: 'Full coverage details' },
+              { href: '/compare', label: 'Compare Insurers', desc: 'Side-by-side comparison' },
+              { href: '/blog/flatmates-guide-contents-insurance', label: 'Flatmates Guide', desc: 'Contents insurance guide' },
+              { href: '/sectors/tenants', label: 'Tenants Insurance', desc: 'Cover for tenants' },
+            ].map((l) => (
+              <Link key={l.href} href={l.href} className="block bg-white rounded-xl border border-slate-200 hover:border-emerald-400 hover:shadow-md transition-all p-4 group">
+                <p className="font-semibold text-slate-900 text-sm group-hover:text-emerald-700">{l.label}</p>
+                <p className="text-xs text-slate-500 mt-0.5">{l.desc}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
-            '@type': 'Service',
-            name: 'Flatmate Insurance NZ',
+            '@type': 'WebPage',
+            name: 'Flatmate Insurance — Shared Accommodation Contents Cover',
             description: 'Contents insurance for flatmates and shared accommodation in New Zealand',
-            provider: {
-              '@type': 'Organization',
-              name: 'RentalInsurance.co.nz',
+            url: 'https://www.rentalinsurance.co.nz/sectors/flatmates/',
+            datePublished: '2026-04-03',
+            dateModified: '2026-05-26',
+            author: { '@type': 'Organization', name: 'Rental Insurance NZ', url: 'https://www.rentalinsurance.co.nz' },
+            breadcrumb: {
+              '@type': 'BreadcrumbList',
+              itemListElement: [
+                { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.rentalinsurance.co.nz/' },
+                { '@type': 'ListItem', position: 2, name: 'Flatmates', item: 'https://www.rentalinsurance.co.nz/sectors/flatmates/' },
+              ],
             },
-            areaServed: 'New Zealand',
+            mainEntity: {
+              '@type': 'Service',
+              name: 'Flatmate Contents Insurance',
+              description: 'Individual contents insurance for people in shared flats and flatting situations',
+              provider: { '@type': 'Organization', name: 'Rental Insurance NZ', url: 'https://www.rentalinsurance.co.nz' },
+              areaServed: { '@type': 'Country', name: 'New Zealand' },
+              url: 'https://www.rentalinsurance.co.nz/sectors/flatmates/',
+            },
           }),
         }}
       />

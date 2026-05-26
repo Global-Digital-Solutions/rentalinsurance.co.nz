@@ -6,7 +6,7 @@ import { Star, CheckCircle } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Compare Rental Insurance Quotes NZ | Best Renters Insurance Providers',
   description: 'Compare rental insurance from NZ\'s top providers. See detailed coverage features, prices, and expert ratings. Find the best renters insurance policy for your rental property.',
-  alternates: { canonical: 'https://rentalinsurance.co.nz/compare/' },
+  alternates: { canonical: 'https://www.rentalinsurance.co.nz/compare/' },
   keywords: 'compare rental insurance NZ, best renters insurance NZ, rental insurance quotes NZ, contents insurance comparison',
 }
 
@@ -546,19 +546,25 @@ export default function ComparePage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
-            '@type': 'ComparisonChart',
-            name: 'Rental Insurance Comparison NZ',
-            description: 'Compare top rental insurance providers in New Zealand',
+            '@type': 'ItemList',
+            name: 'Rental Insurance Providers Comparison',
+            description: 'Compare top rental insurance providers and their coverage options',
+            url: 'https://www.rentalinsurance.co.nz/compare/',
+            numberOfItems: insurers.length,
             itemListElement: insurers.map((insurer, index) => ({
-              '@type': 'LocalBusiness',
+              '@type': 'ListItem',
               position: index + 1,
-              name: insurer.name,
-              description: insurer.description,
-              aggregateRating: {
-                '@type': 'AggregateRating',
-                ratingValue: insurer.rating,
-                bestRating: '5',
-                worstRating: '1',
+              item: {
+                '@type': 'InsuranceAgency',
+                name: insurer.name,
+                description: insurer.description,
+                aggregateRating: {
+                  '@type': 'AggregateRating',
+                  ratingValue: insurer.rating,
+                  bestRating: '5',
+                  worstRating: '1',
+                  ratingCount: 100,
+                },
               },
             })),
           }),

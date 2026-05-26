@@ -6,7 +6,7 @@ import { Home, CheckCircle } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Family Rental Insurance NZ | Complete Coverage & Protection',
   description: 'Comprehensive family rental insurance in New Zealand. Protect furniture, appliances, children\'s items, and your liability. Compare quotes from top insurers today.',
-  alternates: { canonical: 'https://rentalinsurance.co.nz/sectors/families/' },
+  alternates: { canonical: 'https://www.rentalinsurance.co.nz/sectors/families/' },
   keywords: 'family rental insurance NZ, family contents insurance, tenant insurance families, home rental protection, family liability coverage',
   openGraph: {
     title: 'Family Rental Insurance NZ | Complete Coverage & Protection',
@@ -432,19 +432,53 @@ export default function FamiliesPage() {
         </div>
       </section>
 
+      {/* Internal Links */}
+      <section className="py-10 bg-slate-50 border-t border-slate-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-lg font-bold text-slate-900 mb-5">Explore More</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            {[
+              { href: '/coverage', label: "What's Covered", desc: 'Full coverage details' },
+              { href: '/compare', label: 'Compare Insurers', desc: 'Side-by-side comparison' },
+              { href: '/blog/understanding-rental-insurance-nz', label: 'Insurance Guide', desc: 'Rental insurance explained' },
+              { href: '/sectors/tenants', label: 'Tenants Insurance', desc: 'Cover for all tenants' },
+            ].map((l) => (
+              <Link key={l.href} href={l.href} className="block bg-white rounded-xl border border-slate-200 hover:border-emerald-400 hover:shadow-md transition-all p-4 group">
+                <p className="font-semibold text-slate-900 text-sm group-hover:text-emerald-700">{l.label}</p>
+                <p className="text-xs text-slate-500 mt-0.5">{l.desc}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
-            '@type': 'Service',
-            name: 'Family Rental Insurance NZ',
+            '@type': 'WebPage',
+            name: 'Family Rental Insurance — Home Contents & Liability Cover',
             description: 'Comprehensive rental insurance for families renting in New Zealand',
-            provider: {
-              '@type': 'Organization',
-              name: 'RentalInsurance.co.nz',
+            url: 'https://www.rentalinsurance.co.nz/sectors/families/',
+            datePublished: '2026-04-03',
+            dateModified: '2026-05-26',
+            author: { '@type': 'Organization', name: 'Rental Insurance NZ', url: 'https://www.rentalinsurance.co.nz' },
+            breadcrumb: {
+              '@type': 'BreadcrumbList',
+              itemListElement: [
+                { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.rentalinsurance.co.nz/' },
+                { '@type': 'ListItem', position: 2, name: 'Families', item: 'https://www.rentalinsurance.co.nz/sectors/families/' },
+              ],
             },
-            areaServed: 'New Zealand',
+            mainEntity: {
+              '@type': 'Service',
+              name: 'Family Rental Insurance',
+              description: 'Contents and liability insurance for families renting homes in New Zealand',
+              provider: { '@type': 'Organization', name: 'Rental Insurance NZ', url: 'https://www.rentalinsurance.co.nz' },
+              areaServed: { '@type': 'Country', name: 'New Zealand' },
+              url: 'https://www.rentalinsurance.co.nz/sectors/families/',
+            },
           }),
         }}
       />

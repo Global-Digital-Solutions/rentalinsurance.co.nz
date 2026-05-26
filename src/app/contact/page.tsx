@@ -6,7 +6,7 @@ import { Mail, Clock } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Contact Us | Rental Insurance NZ',
   description: 'Get in touch with our rental insurance team. Contact us via email, phone, or our online form for quotes and support.',
-  alternates: { canonical: 'https://rentalinsurance.co.nz/contact/' },
+  alternates: { canonical: 'https://www.rentalinsurance.co.nz/contact/' },
   keywords: 'contact rental insurance NZ, rental insurance quotes, tenant insurance support, insurance enquiries NZ',
   openGraph: {
     title: 'Contact Us | Rental Insurance NZ',

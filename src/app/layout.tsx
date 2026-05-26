@@ -7,8 +7,8 @@ export const metadata: Metadata = {
   title: 'Rental Insurance NZ | Compare & Save | RentalInsurance.co.nz',
   description:
     'Compare rental insurance quotes from leading NZ providers. Get tailored coverage for tenants, students, and renters. Fast, simple, and transparent comparison.',
-  metadataBase: new URL('https://rentalinsurance.co.nz'),
-  alternates: { canonical: 'https://rentalinsurance.co.nz/' },
+  metadataBase: new URL('https://www.rentalinsurance.co.nz'),
+  alternates: { canonical: 'https://www.rentalinsurance.co.nz/' },
   keywords: [
     'rental insurance nz',
     'tenants insurance',
@@ -68,10 +68,22 @@ export default function RootLayout({
               '@context': 'https://schema.org',
               '@type': 'Organization',
               name: 'Rental Insurance NZ',
-              url: 'https://rentalinsurance.co.nz',
-              logo: 'https://rentalinsurance.co.nz/logo.svg',
-              description:
-                'Compare rental insurance quotes from leading NZ providers',
+              url: 'https://www.rentalinsurance.co.nz',
+              logo: {
+                '@type': 'ImageObject',
+                url: 'https://www.rentalinsurance.co.nz/logo.svg',
+                width: 200,
+                height: 60,
+              },
+              description: 'Rental insurance comparison service connecting renters with licensed advisers across New Zealand',
+              email: 'hello@cover4you.co.nz',
+              contactPoint: {
+                '@type': 'ContactPoint',
+                contactType: 'customer service',
+                email: 'hello@cover4you.co.nz',
+                availableLanguage: 'English',
+                areaServed: 'NZ',
+              },
               sameAs: [
                 'https://www.facebook.com/rentalinsurancenz',
                 'https://www.instagram.com/rentalinsurancenz',
@@ -85,12 +97,12 @@ export default function RootLayout({
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'WebSite',
-              url: 'https://rentalinsurance.co.nz',
+              url: 'https://www.rentalinsurance.co.nz',
               potentialAction: {
                 '@type': 'SearchAction',
                 target: {
                   '@type': 'EntryPoint',
-                  urlTemplate: 'https://rentalinsurance.co.nz?q={search_term_string}',
+                  urlTemplate: 'https://www.rentalinsurance.co.nz?q={search_term_string}',
                 },
                 'query-input': 'required name=search_term_string',
               },

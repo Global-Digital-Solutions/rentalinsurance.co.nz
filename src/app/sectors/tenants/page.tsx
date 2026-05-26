@@ -6,10 +6,10 @@ import { CheckCircle, Home, AlertCircle, TrendingUp, BookOpen, Shield } from 'lu
 export const metadata: Metadata = {
   title: 'Tenants Insurance NZ | Rental Insurance & Contents Protection',
   description: 'Get affordable tenants insurance in New Zealand. Protect your belongings, cover your liability, and understand your rights under the Residential Tenancies Act. Compare quotes from top providers.',
-  alternates: { canonical: 'https://rentalinsurance.co.nz/sectors/tenants/' },
+  alternates: { canonical: 'https://www.rentalinsurance.co.nz/sectors/tenants/' },
   openGraph: {
     type: 'website',
-    url: 'https://rentalinsurance.co.nz/sectors/tenants/',
+    url: 'https://www.rentalinsurance.co.nz/sectors/tenants/',
   },
 }
 
@@ -465,40 +465,54 @@ export default function TenantsPage() {
         </div>
       </section>
 
+      {/* Internal Links */}
+      <section className="py-10 bg-slate-50 border-t border-slate-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-lg font-bold text-slate-900 mb-5">Explore More</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            {[
+              { href: '/coverage', label: "What's Covered", desc: 'Full coverage details' },
+              { href: '/compare', label: 'Compare Insurers', desc: 'Side-by-side comparison' },
+              { href: '/blog/what-tenants-insurance-covers', label: 'Tenants Guide', desc: 'What insurance covers' },
+              { href: '/sectors/students', label: 'Student Insurance', desc: 'Cover for students' },
+            ].map((l) => (
+              <Link key={l.href} href={l.href} className="block bg-white rounded-xl border border-slate-200 hover:border-emerald-400 hover:shadow-md transition-all p-4 group">
+                <p className="font-semibold text-slate-900 text-sm group-hover:text-emerald-700">{l.label}</p>
+                <p className="text-xs text-slate-500 mt-0.5">{l.desc}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
-            '@type': 'Article',
-            headline: 'Tenants Insurance NZ | Rental Insurance & Contents Protection',
-            description: 'Comprehensive guide to tenants insurance in New Zealand. Understand coverage, costs, legal requirements, and how to choose the right policy.',
-            author: {
-              '@type': 'Organization',
-              name: 'Rental Insurance NZ',
-            },
+            '@type': 'WebPage',
+            name: 'Tenants Insurance — Rental & Contents Protection',
+            description: 'Comprehensive guide to tenants insurance in New Zealand.',
+            url: 'https://www.rentalinsurance.co.nz/sectors/tenants/',
             datePublished: '2026-04-03',
-            dateModified: '2026-04-03',
-            publisher: {
-              '@type': 'Organization',
-              name: 'Rental Insurance NZ',
-              logo: {
-                '@type': 'ImageObject',
-                url: 'https://rentalinsurance.co.nz/logo.png',
-              },
+            dateModified: '2026-05-26',
+            author: { '@type': 'Organization', name: 'Rental Insurance NZ', url: 'https://www.rentalinsurance.co.nz' },
+            publisher: { '@type': 'Organization', name: 'Rental Insurance NZ', url: 'https://www.rentalinsurance.co.nz' },
+            breadcrumb: {
+              '@type': 'BreadcrumbList',
+              itemListElement: [
+                { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.rentalinsurance.co.nz/' },
+                { '@type': 'ListItem', position: 2, name: 'Tenants', item: 'https://www.rentalinsurance.co.nz/sectors/tenants/' },
+              ],
             },
             mainEntity: {
               '@type': 'Service',
               name: 'Tenants Insurance',
-              description: 'Comprehensive rental insurance for tenants in New Zealand protecting belongings and liability',
-              provider: {
-                '@type': 'Organization',
-                name: 'Rental Insurance NZ',
-                url: 'https://rentalinsurance.co.nz',
-              },
-              areaServed: 'NZ',
-              url: 'https://rentalinsurance.co.nz/sectors/tenants/',
+              description: 'Rental insurance for tenants protecting contents and liability',
+              provider: { '@type': 'Organization', name: 'Rental Insurance NZ', url: 'https://www.rentalinsurance.co.nz' },
+              areaServed: { '@type': 'Country', name: 'New Zealand' },
+              url: 'https://www.rentalinsurance.co.nz/sectors/tenants/',
             },
           }),
         }}

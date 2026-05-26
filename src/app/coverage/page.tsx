@@ -6,7 +6,7 @@ import { CheckCircle, XCircle, Shield, DollarSign, Home, Building2, AlertTriangl
 export const metadata: Metadata = {
   title: 'Rental Insurance Coverage Guide NZ | What\'s Covered & Excluded',
   description: 'Complete guide to rental insurance coverage in New Zealand. Learn what\'s covered, what\'s excluded, how much cover you need, tenant liability law, and how to choose the right policy.',
-  alternates: { canonical: 'https://rentalinsurance.co.nz/coverage/' },
+  alternates: { canonical: 'https://www.rentalinsurance.co.nz/coverage/' },
   keywords: 'rental insurance coverage NZ, what is covered, what is excluded, tenant liability insurance NZ, contents insurance guide, rental protection',
   openGraph: {
     title: 'Rental Insurance Coverage Guide NZ | What\'s Covered & Excluded',

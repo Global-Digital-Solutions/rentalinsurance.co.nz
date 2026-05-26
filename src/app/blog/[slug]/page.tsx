@@ -27,13 +27,22 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: `${post.title} | Rental Insurance NZ`,
     description: post.excerpt,
-    alternates: { canonical: `https://rentalinsurance.co.nz/blog/${slug}/` },
+    alternates: { canonical: `https://www.rentalinsurance.co.nz/blog/${slug}/` },
+    keywords: `${post.category.toLowerCase()}, rental insurance NZ, tenants insurance, contents insurance, renter guide`,
+    authors: [{ name: post.author }],
     openGraph: {
       title: post.title,
       description: post.excerpt,
       type: 'article',
       publishedTime: post.date,
       authors: [post.author],
+      images: [{ url: post.image, width: 1200, height: 630, alt: post.title }],
+      siteName: 'Rental Insurance NZ',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.excerpt,
       images: [post.image],
     },
   }
@@ -218,9 +227,9 @@ export default async function BlogPostPage({ params }: PageProps) {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://rentalinsurance.co.nz/' },
-              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://rentalinsurance.co.nz/blog/' },
-              { '@type': 'ListItem', position: 3, name: post.title, item: `https://rentalinsurance.co.nz/blog/${post.slug}/` },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.rentalinsurance.co.nz/' },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.rentalinsurance.co.nz/blog/' },
+              { '@type': 'ListItem', position: 3, name: post.title, item: `https://www.rentalinsurance.co.nz/blog/${post.slug}/` },
             ],
           }),
         }}
