@@ -43,7 +43,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/blog" className="text-slate-400 hover:text-emerald-400 transition-colors">
-                  Blog
+                  Guides & Resources
                 </Link>
               </li>
               <li>

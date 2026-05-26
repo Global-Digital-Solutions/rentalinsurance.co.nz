@@ -75,7 +75,7 @@ export default function ThankYouPage() {
               href="/blog"
               className="block p-4 bg-slate-50 rounded-lg hover:bg-emerald-50 transition-colors border border-slate-200 hover:border-emerald-300"
             >
-              <p className="font-semibold text-slate-900 text-sm">Read Our Blog</p>
+              <p className="font-semibold text-slate-900 text-sm">Guides & Resources</p>
               <p className="text-xs text-slate-600">Expert guides on rental insurance in NZ</p>
             </Link>
           </div>

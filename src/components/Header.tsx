@@ -93,7 +93,7 @@ export default function Header() {
               href="/blog"
               className="px-3 py-2 text-sm font-medium text-slate-700 hover:text-emerald-600 transition-colors"
             >
-              Blog
+              Guides & Resources
             </Link>
           </nav>
 
@@ -186,7 +186,7 @@ export default function Header() {
               className="block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100 rounded-lg"
               onClick={() => setIsMenuOpen(false)}
             >
-              Blog
+              Guides & Resources
             </Link>
             <a
               href="/contact"

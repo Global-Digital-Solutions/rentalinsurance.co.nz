@@ -4,12 +4,12 @@ import { blogPosts } from '@/data/blog-posts'
 import { Clock, User, BookOpen } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Blog | Rental Insurance NZ',
+  title: 'Guides & Resources | Rental Insurance NZ',
   description: 'Expert guides and articles about rental insurance, tenant rights, and student accommodation insurance in New Zealand.',
   alternates: { canonical: 'https://rentalinsurance.co.nz/blog/' },
   keywords: 'rental insurance blog, tenant guides NZ, rental insurance tips, student accommodation insurance, renters advice',
   openGraph: {
-    title: 'Blog | Rental Insurance NZ',
+    title: 'Guides & Resources | Rental Insurance NZ',
     description: 'Expert guides and articles about rental insurance, tenant rights, and accommodation insurance in New Zealand.',
     type: 'website',
   },
@@ -22,7 +22,7 @@ export default function BlogPage() {
       <section className="h-[40vh] min-h-[250px] sm:h-[50vh] sm:min-h-[300px] bg-gradient-to-br from-emerald-600 to-emerald-700 relative overflow-hidden flex items-center justify-center">
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-center">
           <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-4">
-            Rental Insurance Blog
+            Guides & Resources
           </h1>
           <p className="text-base sm:text-xl text-emerald-100">
             Expert guides and insights for NZ renters
@@ -114,7 +114,7 @@ export default function BlogPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'CollectionPage',
-            name: 'Rental Insurance Blog NZ',
+            name: 'Rental Insurance Guides & Resources NZ',
             description: 'Expert guides and articles about rental insurance in New Zealand',
             url: 'https://rentalinsurance.co.nz/blog/',
           }),
