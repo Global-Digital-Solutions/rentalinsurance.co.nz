@@ -91,86 +91,72 @@ export default function HowItWorks() {
   }, []);
 
   return (
-    <div ref={containerRef} className="py-16 lg:py-20 bg-white">
+    <div ref={containerRef} className="py-16 lg:py-20 bg-gradient-to-br from-emerald-800 to-emerald-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-4">How It Works</h2>
-          <p className="text-slate-600 text-lg max-w-2xl mx-auto">
-            Get the best rental insurance cover in just three simple steps.
+          <span className="inline-block bg-emerald-700 text-emerald-200 text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full mb-4">
+            Simple Process
+          </span>
+          <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">How It Works</h2>
+          <p className="text-emerald-200 text-lg max-w-2xl mx-auto">
+            From quote request to covered — takes less than 2 minutes.
           </p>
         </div>
 
-        {/* Steps Container */}
-        <div className="relative">
-          {/* Desktop Gradient Connector Line */}
-          <div className="hidden lg:block absolute top-20 left-0 right-0 h-1 bg-gradient-to-r from-emerald-400 via-sky-400 to-emerald-400 z-0" />
+        {/* Steps Grid */}
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8 relative">
+          {/* Connector line (desktop) */}
+          <div className="hidden lg:block absolute top-12 left-[calc(16.67%+1rem)] right-[calc(16.67%+1rem)] h-0.5 bg-emerald-600/50 z-0" />
 
-          {/* Steps Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 relative z-10">
-            {steps.map((step, index) => (
-              <div
-                key={step.number}
-                ref={(el) => {
-                  stepRefs.current[index] = el;
-                }}
-                className={`bg-white rounded-lg p-6 lg:p-8 border border-slate-200 transition-all duration-700 ${
-                  visibleSteps.has(index)
-                    ? 'opacity-100 translate-y-0'
-                    : 'opacity-0 translate-y-4'
-                } ${index === 1 ? 'lg:scale-105' : ''}`}
-                style={{
-                  transitionDelay: visibleSteps.has(index) ? `${index * 200}ms` : '0ms',
-                }}
-              >
-                {/* Step Number Circle */}
-                <div className="mb-6">
-                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-emerald-400 to-sky-400 flex items-center justify-center text-white font-bold text-2xl shadow-lg">
-                    {step.number}
-                  </div>
+          {steps.map((step, index) => (
+            <div
+              key={step.number}
+              ref={(el) => { stepRefs.current[index] = el; }}
+              className={`relative bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-8 transition-all duration-700 hover:bg-white/15 ${
+                visibleSteps.has(index) ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
+              }`}
+              style={{ transitionDelay: visibleSteps.has(index) ? `${index * 150}ms` : '0ms' }}
+            >
+              {/* Step badge */}
+              <div className="flex items-center gap-4 mb-6 relative z-10">
+                <div className="w-12 h-12 rounded-full bg-white flex items-center justify-center text-emerald-800 font-extrabold text-xl shadow-lg flex-shrink-0">
+                  {step.number}
                 </div>
-
-                {/* Icon */}
-                <div className="text-emerald-600 mb-4">{step.icon}</div>
-
-                {/* Content */}
-                <h3 className="text-xl font-bold text-slate-900 mb-3">{step.title}</h3>
-                <p className="text-slate-600 leading-relaxed">{step.description}</p>
-
-                {/* Mobile Connector */}
-                {index < steps.length - 1 && (
-                  <div className="lg:hidden mt-8 flex justify-center">
-                    <svg
-                      className="w-6 h-8 text-emerald-400"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M19 14l-7 7m0 0l-7-7m7 7V3"
-                      />
-                    </svg>
-                  </div>
-                )}
+                <div className="h-0.5 flex-1 bg-white/20 lg:hidden" />
               </div>
-            ))}
-          </div>
+
+              {/* Icon */}
+              <div className="text-emerald-300 mb-5">{step.icon}</div>
+
+              {/* Content */}
+              <h3 className="text-xl font-bold text-white mb-3">{step.title}</h3>
+              <p className="text-emerald-200 leading-relaxed">{step.description}</p>
+
+              {/* Down arrow on mobile */}
+              {index < steps.length - 1 && (
+                <div className="lg:hidden mt-6 flex justify-center">
+                  <svg className="w-5 h-6 text-emerald-400 opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                  </svg>
+                </div>
+              )}
+            </div>
+          ))}
         </div>
 
-        {/* CTA Button */}
-        <div className="text-center mt-16">
+        {/* CTA */}
+        <div className="text-center mt-12">
           <a
             href="/contact"
-            className="inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors"
+            className="inline-flex items-center justify-center gap-2 bg-white hover:bg-emerald-50 text-emerald-800 font-bold py-3 px-8 rounded-lg transition-colors shadow-lg"
           >
             Start Your Quote
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>
           </a>
+          <p className="text-emerald-300 text-sm mt-3">No fees · No obligation · Takes 2 minutes</p>
         </div>
       </div>
     </div>

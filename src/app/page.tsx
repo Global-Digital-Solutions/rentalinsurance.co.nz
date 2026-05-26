@@ -12,8 +12,11 @@ import {
   GraduationCap,
   CheckCircle,
   Shield,
-  DollarSign,
-  Clock,
+  Wallet,
+  BedDouble,
+  Package,
+  AlertTriangle,
+  TrendingUp,
 } from 'lucide-react'
 
 export const metadata: Metadata = {
@@ -36,48 +39,72 @@ export default function HomePage() {
     {
       id: 'tenants',
       title: 'Tenants',
-      description: 'Protection for renting homes with comprehensive contents coverage',
+      tagline: 'Most popular',
+      description: 'Comprehensive cover for solo renters in houses, apartments, and units across New Zealand.',
+      bullets: ['Contents up to $100K', 'Tenant liability', 'Temporary accommodation', 'Accidental damage add-on'],
       icon: User,
       href: '/sectors/tenants',
+      color: 'bg-emerald-600',
     },
     {
       id: 'students',
       title: 'Students',
-      description: 'Affordable coverage for halls, flats, and student accommodation',
+      tagline: 'Budget-friendly',
+      description: 'Affordable policies for students in halls of residence, flats, and student accommodation.',
+      bullets: ['Cover from ~$20/month', 'Laptop & device protection', 'Halls & flat cover', 'Flexible policy terms'],
       icon: GraduationCap,
       href: '/sectors/students',
+      color: 'bg-sky-600',
     },
     {
       id: 'flatmates',
       title: 'Flatmates',
-      description: 'Individual policies for shared living with separate protection',
+      tagline: 'Individual policies',
+      description: 'Separate cover for each person in a shared flat — your policy, your claim, your protection.',
+      bullets: ['No shared liability risk', 'Cover your own belongings', 'Works alongside others\' policies', 'Include common area items'],
       icon: Users,
       href: '/sectors/flatmates',
+      color: 'bg-violet-600',
     },
     {
       id: 'families',
       title: 'Families',
-      description: 'Complete family rental coverage with extended liability options',
+      tagline: 'Extended coverage',
+      description: 'Complete family rental coverage with extended liability limits and protection for every family member.',
+      bullets: ['Higher sum insured options', 'Kids\' belongings covered', 'Garden & outdoor contents', 'Extended liability up to $2M'],
       icon: Home,
       href: '/sectors/families',
+      color: 'bg-amber-600',
     },
   ]
 
   const whyInsure = [
     {
-      icon: Shield,
+      icon: Package,
+      stat: '$30K–$80K+',
+      statLabel: 'typical contents value',
       title: 'Contents Protection',
-      description: 'Your belongings are protected from theft, fire, and accidental damage up to your chosen limit.',
+      description: 'Your belongings — furniture, electronics, clothing, appliances, jewellery — are protected from theft, fire, and accidental damage up to your chosen sum insured.',
+      bullets: ['Fire, flood & storm damage', 'Theft & burglary', 'Accidental breakage', 'Specified valuable items'],
+      color: 'from-emerald-500 to-emerald-700',
     },
     {
-      icon: DollarSign,
+      icon: Shield,
+      stat: 'Up to $2M',
+      statLabel: 'tenant liability cover',
       title: 'Tenant Liability',
-      description: 'Accidental damage to the rental property is covered up to $2M, capped at fair NZ law limits.',
+      description: 'Accidentally damage the rental property? Your policy covers you. The 2019 RTA changes cap your liability at four weeks\' rent for careless damage — and your insurer covers the rest.',
+      bullets: ['Accidental property damage', 'Water overflow incidents', 'Kitchen & fire damage', 'Legal expense cover'],
+      color: 'from-sky-500 to-sky-700',
     },
     {
-      icon: Clock,
+      icon: BedDouble,
+      stat: 'Up to 12 months',
+      statLabel: 'alternative accommodation',
       title: 'Temporary Accommodation',
-      description: 'If your rental becomes uninhabitable, we cover your temporary living costs while repairs happen.',
+      description: 'If your rental becomes uninhabitable after a covered event, your insurer pays for temporary accommodation while repairs are made — so you\'re never left without a home.',
+      bullets: ['Hotel & motel cover', 'Rental of comparable property', 'Moving & storage costs', 'Pet boarding costs (select policies)'],
+      color: 'from-violet-500 to-violet-700',
     },
   ]
 
@@ -128,11 +155,14 @@ export default function HomePage() {
       <section className="py-16 lg:py-20 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
+            <span className="inline-block bg-emerald-100 text-emerald-700 text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full mb-4">
+              Who We Cover
+            </span>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-4">
               Coverage for Every Renter
             </h2>
             <p className="text-slate-600 text-lg max-w-2xl mx-auto">
-              Whether you're a single tenant, student, flatmate, or family, we have the right coverage for you.
+              Whether you're a solo tenant, student, flatmate, or family renting in New Zealand — we have a policy built around you.
             </p>
           </div>
 
@@ -143,18 +173,40 @@ export default function HomePage() {
                 <Link
                   key={sector.id}
                   href={sector.href}
-                  className="group bg-white rounded-lg border-2 border-slate-200 p-6 hover:border-emerald-300 hover:shadow-lg transition-all duration-200"
+                  className="group bg-white rounded-xl overflow-hidden border border-slate-200 hover:border-emerald-300 hover:shadow-xl transition-all duration-300 flex flex-col"
                 >
-                  <div className="flex flex-col h-full">
-                    <div className="text-emerald-600 mb-4 group-hover:scale-110 transition-transform">
-                      <Icon className="w-8 h-8" />
+                  {/* Coloured header */}
+                  <div className={`${sector.color} px-6 pt-7 pb-5`}>
+                    <div className="flex items-start justify-between mb-4">
+                      <div className="bg-white/20 rounded-xl p-3">
+                        <Icon className="w-7 h-7 text-white" />
+                      </div>
+                      {sector.tagline && (
+                        <span className="bg-white/25 text-white text-xs font-semibold px-2 py-1 rounded-full">
+                          {sector.tagline}
+                        </span>
+                      )}
                     </div>
-                    <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-emerald-600 transition-colors">
+                    <h3 className="text-xl font-bold text-white">
                       {sector.title}
                     </h3>
-                    <p className="text-slate-600 text-sm flex-grow">{sector.description}</p>
-                    <div className="text-emerald-600 font-semibold text-sm mt-4 group-hover:translate-x-1 transition-transform">
-                      Learn More →
+                  </div>
+
+                  {/* Card body */}
+                  <div className="p-6 flex flex-col flex-grow">
+                    <p className="text-slate-600 text-sm mb-4 leading-relaxed">{sector.description}</p>
+                    <ul className="space-y-2 flex-grow">
+                      {sector.bullets.map((bullet, i) => (
+                        <li key={i} className="flex items-start gap-2 text-sm text-slate-700">
+                          <CheckCircle className="w-4 h-4 text-emerald-500 flex-shrink-0 mt-0.5" />
+                          {bullet}
+                        </li>
+                      ))}
+                    </ul>
+                    <div className="mt-5 pt-4 border-t border-slate-100">
+                      <span className="text-emerald-600 font-semibold text-sm group-hover:translate-x-1 transition-transform inline-flex items-center gap-1">
+                        Learn more <span aria-hidden>→</span>
+                      </span>
                     </div>
                   </div>
                 </Link>
@@ -218,42 +270,78 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Why Rental Insurance Section - Enhanced */}
+      {/* Why Rental Insurance Section - Rich cards */}
       <section className="py-16 lg:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
+            <span className="inline-block bg-emerald-100 text-emerald-700 text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full mb-4">
+              Why It Matters
+            </span>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-4">
-              Why Rental Insurance Matters for NZ Renters
+              What Rental Insurance Actually Covers
             </h2>
             <p className="text-slate-600 text-lg max-w-2xl mx-auto">
-              Protect yourself from financial loss with comprehensive coverage tailored to New Zealand renters.
+              Your landlord's insurance covers the building — not your stuff. Here's what a good rental policy protects.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-14">
             {whyInsure.map((item, index) => {
               const Icon = item.icon
               return (
-                <div
-                  key={index}
-                  className="bg-gradient-to-br from-slate-50 to-emerald-50/30 rounded-lg p-8 border border-emerald-100"
-                >
-                  <div className="text-emerald-600 mb-4">
-                    <Icon className="w-12 h-12" />
+                <div key={index} className="rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-lg transition-shadow duration-300">
+                  {/* Gradient header with stat */}
+                  <div className={`bg-gradient-to-br ${item.color} p-7`}>
+                    <div className="bg-white/20 w-14 h-14 rounded-2xl flex items-center justify-center mb-5">
+                      <Icon className="w-7 h-7 text-white" />
+                    </div>
+                    <div className="text-white/80 text-xs font-semibold uppercase tracking-wide mb-1">{item.statLabel}</div>
+                    <div className="text-white text-3xl font-extrabold leading-tight">{item.stat}</div>
                   </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">{item.title}</h3>
-                  <p className="text-slate-600">{item.description}</p>
+
+                  {/* Card body */}
+                  <div className="bg-white p-7">
+                    <h3 className="text-xl font-bold text-slate-900 mb-3">{item.title}</h3>
+                    <p className="text-slate-600 text-sm leading-relaxed mb-5">{item.description}</p>
+                    <ul className="space-y-2">
+                      {item.bullets.map((bullet, i) => (
+                        <li key={i} className="flex items-start gap-2 text-sm text-slate-700">
+                          <CheckCircle className="w-4 h-4 text-emerald-500 flex-shrink-0 mt-0.5" />
+                          {bullet}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
               )
             })}
           </div>
 
-          <div className="mt-12 max-w-4xl mx-auto space-y-5 text-slate-600 leading-relaxed text-lg">
+          {/* Warning banner */}
+          <div className="bg-amber-50 border border-amber-200 rounded-2xl p-6 lg:p-8 flex flex-col md:flex-row items-start md:items-center gap-5 mb-10">
+            <div className="bg-amber-100 rounded-xl p-3 flex-shrink-0">
+              <AlertTriangle className="w-8 h-8 text-amber-600" />
+            </div>
+            <div className="flex-1">
+              <h3 className="font-bold text-slate-900 text-lg mb-1">Your landlord's insurance does NOT cover your belongings</h3>
+              <p className="text-slate-600 text-sm leading-relaxed">
+                A landlord's building policy protects the structure — walls, roof, plumbing, and fixtures. If theft, fire, or flooding destroys your laptop, furniture, clothing, or appliances, you replace them at your own cost unless you have your own policy. Around 1 in 3 renters has no cover at all.
+              </p>
+            </div>
+            <Link
+              href="/contact"
+              className="flex-shrink-0 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-2.5 px-6 rounded-lg text-sm transition-colors whitespace-nowrap"
+            >
+              Get Covered
+            </Link>
+          </div>
+
+          <div className="max-w-4xl mx-auto space-y-5 text-slate-600 leading-relaxed text-lg">
             <p>
-              Many New Zealand renters assume their landlord's insurance will protect them, but this is a common misconception. A landlord's property insurance covers the building structure — the walls, roof, plumbing, and fixtures — but it does <strong>not</strong> extend to any of your personal possessions inside the home. Without your own rental insurance policy, you are fully responsible for replacing everything you own if disaster strikes.
+              Many renters assume their landlord's insurance will protect them, but this is a common misconception. A landlord's property insurance covers the building structure — the walls, roof, plumbing, and fixtures — but it does <strong>not</strong> extend to any of your personal possessions inside the home. Without your own rental insurance policy, you are fully responsible for replacing everything you own if disaster strikes.
             </p>
             <p>
-              Consider the true value of your belongings: your laptop, phone, furniture, kitchen appliances, clothing, sports equipment, musical instruments, jewellery, and any collectibles. Most New Zealanders significantly underestimate the replacement value of their home contents. Even a modest rental with basic furnishings can contain $30,000 to $50,000 worth of possessions. For families, this figure often exceeds $80,000 or more.
+              Consider the true value of your belongings: your laptop, phone, furniture, kitchen appliances, clothing, sports equipment, musical instruments, jewellery, and any collectibles. Most renters significantly underestimate the replacement value of their home contents. Even a modest rental with basic furnishings can contain $30,000 to $50,000 worth of possessions. For families, this figure often exceeds $80,000 or more.
             </p>
             <p>
               Beyond contents protection, rental insurance provides tenant liability cover, temporary accommodation costs if your rental becomes uninhabitable, and legal expense cover in some policies. Some providers also offer optional add-ons for specified valuables (e.g. engagement rings, cameras, high-end electronics) that cover items both inside and outside the home.
