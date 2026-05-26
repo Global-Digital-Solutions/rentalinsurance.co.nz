@@ -56,7 +56,7 @@ export default function FamiliesPage() {
               <div>
                 <h2 className="text-3xl font-bold text-slate-900 mb-6">Rental Insurance for Families</h2>
                 <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                  Families renting homes across New Zealand face unique insurance challenges that individual renters often don't encounter. Whether you're raising young children in an Auckland villa, managing a growing household in Wellington, or settling your family in Christchurch, comprehensive rental insurance is essential to protect your lifestyle and financial security. When you have children, spouses, extended family members, or caregivers living in your rented home, the risks multiply significantly.
+                  Families renting homes face unique insurance challenges that individual renters often don't encounter. Whether you're raising young children in an Auckland villa, managing a growing household in Wellington, or settling your family in Christchurch, comprehensive rental insurance is essential to protect your lifestyle and financial security. When you have children, spouses, extended family members, or caregivers living in your rented home, the risks multiply significantly.
                 </p>
                 <p className="text-lg text-slate-600 leading-relaxed">
                   Family rental insurance goes beyond basic contents coverage. It addresses the specific needs of multi-person households: higher replacement values for accumulated furniture and appliances, enhanced liability protection for accidents caused by children or visitors, extended temporary accommodation periods that can accommodate entire families, and coverage for the diverse belongings that family members accumulate. The right policy ensures that a single accident doesn't financially devastate your family or jeopardise your rental stability.
@@ -66,14 +66,14 @@ export default function FamiliesPage() {
               <div className="space-y-4">
                 <h3 className="text-2xl font-bold text-slate-900">Why Families Need Comprehensive Rental Insurance</h3>
                 <p className="text-slate-700 leading-relaxed">
-                  Under New Zealand law, tenants are legally responsible for accidental damage to rental properties. This liability extends to damage caused by any household member, including children. A child who accidentally puts a ball through a window, knocks over a pot that damages the kitchen floor, or causes water damage through a blocked toilet can create a liability claim of thousands of dollars. Without proper insurance, these costs fall directly on you and can strain family finances significantly.
+                  Under tenancy law, tenants are legally responsible for accidental damage to rental properties. This liability extends to damage caused by any household member, including children. A child who accidentally puts a ball through a window, knocks over a pot that damages the kitchen floor, or causes water damage through a blocked toilet can create a liability claim of thousands of dollars. Without proper insurance, these costs fall directly on you and can strain family finances significantly.
                 </p>
                 <p className="text-slate-700 leading-relaxed mb-4">
                   Additionally, families accumulate more household contents than other renters. With multiple bedrooms filled with furniture, shared living spaces, bedding for everyone, multiple TVs and computers, gaming consoles, children's toys, sports equipment, and kitchen appliances, a typical family's contents value ranges from $50,000 to $150,000 or more. A fire, break-in, or flood could destroy months or years of accumulated purchases. Family rental insurance ensures you can replace everything your family needs to live comfortably.
                 </p>
                 <div className="bg-emerald-50 border-l-4 border-emerald-600 p-6 rounded">
                   <p className="text-slate-700 font-semibold">
-                    Did you know? Families with children file contents claims 40% more frequently than single renters, with an average claim value of $8,500-$12,000 in New Zealand.
+                    Did you know? Families with children file contents claims 40% more frequently than single renters, with an average claim value of $8,500-$12,000.
                   </p>
                 </div>
               </div>
@@ -84,7 +84,7 @@ export default function FamiliesPage() {
                   One critical mistake families make when insuring rental properties is underestimating their total contents value. A single person might need to replace furniture worth $30,000-$40,000, but families typically need significantly more.
                 </p>
                 <p className="text-slate-700 leading-relaxed mb-4">
-                  Consider what a typical New Zealand family home contains:
+                  Consider what a typical family home contains:
                 </p>
                 <div className="overflow-x-auto mb-6">
                   <table className="w-full border-collapse border border-slate-300">
@@ -131,7 +131,7 @@ export default function FamiliesPage() {
                   </table>
                 </div>
                 <p className="text-slate-700 leading-relaxed">
-                  Many families need even higher coverage—$100,000 to $150,000—when accounting for multiple cars worth of electronics, high-end furniture, collectibles, and the cumulative value of everyday items. Getting an accurate contents inventory is crucial. Walk through your home and photograph items, keep receipt documentation, and be realistic about replacement costs in today's NZ market.
+                  Many families need even higher coverage—$100,000 to $150,000—when accounting for multiple cars worth of electronics, high-end furniture, collectibles, and the cumulative value of everyday items. Getting an accurate contents inventory is crucial. Walk through your home and photograph items, keep receipt documentation, and be realistic about replacement costs in today's market.
                 </p>
               </div>
 
@@ -144,7 +144,7 @@ export default function FamiliesPage() {
                   Standard tenant liability covers damage you cause as the tenant, but accidental damage cover specifically protects you when accidents happen inside the rental property—damage caused by children, pets, or natural accidents like knocking something over. For families with young children (especially ages 2-12 when curiosity is highest), accidental damage cover typically costs just $5-15 extra per month and can save you tens of thousands.
                 </p>
                 <p className="text-slate-700 leading-relaxed">
-                  Common children-related claims we see in New Zealand include broken windows from balls or toys, damage to walls and doors from enthusiastic play, stains on carpets that require replacement, and water damage from forgotten baths or showers. When evaluating policies, ensure accidental damage cover includes impact damage, water damage from internal sources, and damage caused by children or visitors living in your home.
+                  Common children-related claims include broken windows from balls or toys, damage to walls and doors from enthusiastic play, stains on carpets that require replacement, and water damage from forgotten baths or showers. When evaluating policies, ensure accidental damage cover includes impact damage, water damage from internal sources, and damage caused by children or visitors living in your home.
                 </p>
               </div>
 
@@ -188,7 +188,7 @@ export default function FamiliesPage() {
               <div className="space-y-4">
                 <h3 className="text-2xl font-bold text-slate-900">Common Insurance Claims for Families in New Zealand</h3>
                 <p className="text-slate-700 leading-relaxed mb-4">
-                  Understanding the most common claims families face helps you choose appropriate coverage. Based on New Zealand insurance data, these scenarios happen regularly:
+                  Understanding the most common claims families face helps you choose appropriate coverage. Based on local insurance data, these scenarios happen regularly:
                 </p>
 
                 <div className="space-y-4">
@@ -246,7 +246,7 @@ export default function FamiliesPage() {
                   <li className="leading-relaxed"><strong>Review annually</strong>. When you buy new furniture or appliances, adjust your coverage upward.</li>
                 </ol>
                 <p className="text-slate-700 leading-relaxed">
-                  For most NZ families with children, a sum insured of $80,000-$120,000 is realistic. Larger families, those with premium furniture, or those living in expensive areas may need $130,000-$150,000+. Don't guess—families who accurately assess their contents can claim successfully and quickly when disaster strikes.
+                  For most families with children, a sum insured of $80,000-$120,000 is realistic. Larger families, those with premium furniture, or those living in expensive areas may need $130,000-$150,000+. Don't guess—families who accurately assess their contents can claim successfully and quickly when disaster strikes.
                 </p>
               </div>
 
@@ -277,7 +277,7 @@ export default function FamiliesPage() {
                   When a rental becomes uninhabitable—due to fire, flood, storm damage, or other covered events—your family needs somewhere to stay while repairs happen. This is where temporary accommodation coverage becomes critical. Standard policies might offer 14-30 days of cover. For a family of four, this is often nowhere near enough.
                 </p>
                 <p className="text-slate-700 leading-relaxed mb-4">
-                  Major repairs in New Zealand often take 4-12 weeks. During that time, your family needs:
+                  Major repairs often take 4-12 weeks. During that time, your family needs:
                 </p>
                 <ul className="list-disc list-inside space-y-2 text-slate-700 ml-4 mb-6">
                   <li>A rental property of similar size (accommodating all family members)</li>
@@ -302,7 +302,7 @@ export default function FamiliesPage() {
                   <li>Art supplies and special equipment</li>
                 </ul>
                 <p className="text-slate-700 leading-relaxed mb-4">
-                  If this equipment is stolen or damaged, families face significant replacement costs at short notice (often needed within days to continue attending school). Some NZ insurers offer school equipment cover that reimburses these costs. Check whether your policy includes this coverage or whether it's available as an optional add-on. The cost is minimal (often $5-10/month) but the peace of mind for families is substantial.
+                  If this equipment is stolen or damaged, families face significant replacement costs at short notice (often needed within days to continue attending school). Some insurers offer school equipment cover that reimburses these costs. Check whether your policy includes this coverage or whether it's available as an optional add-on. The cost is minimal (often $5-10/month) but the peace of mind for families is substantial.
                 </p>
               </div>
 
@@ -327,10 +327,10 @@ export default function FamiliesPage() {
               <div className="space-y-4">
                 <h3 className="text-2xl font-bold text-slate-900">Working for Families and Rental Insurance Affordability</h3>
                 <p className="text-slate-700 leading-relaxed mb-4">
-                  Many NZ families receive Working for Families tax credits, which provide financial support for families with dependent children. These credits improve household cash flow and make it more feasible to budget for comprehensive insurance coverage. A family receiving $150-300/week in tax credits can more easily afford a $35-50/month comprehensive rental insurance policy that includes accidental damage, higher liability limits, and extended temporary accommodation.
+                  Families receive Working for Families tax credits, which provide financial support for families with dependent children. These credits improve household cash flow and make it more feasible to budget for comprehensive insurance coverage. A family receiving $150-300/week in tax credits can more easily afford a $35-50/month comprehensive rental insurance policy that includes accidental damage, higher liability limits, and extended temporary accommodation.
                 </p>
                 <p className="text-slate-700 leading-relaxed">
-                  When calculating your household budget, factor in comprehensive rental insurance as a priority expense. The cost is minimal compared to the financial disaster that could occur without it. A single water damage claim or lawsuit could cost $10,000-$50,000, devastating a family that doesn't have Working for Families support to recover quickly. Insurance is truly essential protection for NZ families.
+                  When calculating your household budget, factor in comprehensive rental insurance as a priority expense. The cost is minimal compared to the financial disaster that could occur without it. A single water damage claim or lawsuit could cost $10,000-$50,000, devastating a family that doesn't have Working for Families support to recover quickly. Insurance is truly essential protection for families.
                 </p>
               </div>
 
@@ -360,10 +360,10 @@ export default function FamiliesPage() {
               <div className="space-y-4">
                 <h3 className="text-2xl font-bold text-slate-900">Finding the Right Family Rental Insurance for Your Needs</h3>
                 <p className="text-slate-700 leading-relaxed mb-4">
-                  The rental insurance market in New Zealand offers many options, from basic policies at $15-20/month to comprehensive family coverage at $40-60/month. The difference in price usually reflects the quality and breadth of coverage—whether accidental damage, extended temporary accommodation, higher liability limits, and specified items are included.
+                  The rental insurance market offers many options, from basic policies at $15-20/month to comprehensive family coverage at $40-60/month. The difference in price usually reflects the quality and breadth of coverage—whether accidental damage, extended temporary accommodation, higher liability limits, and specified items are included.
                 </p>
                 <p className="text-slate-700 leading-relaxed">
-                  Use our comparison tool to get quotes from multiple NZ insurers. By providing details about your family size, the number of bedrooms, your estimated contents value, and which optional features you need, you'll receive personalized quotes that reflect your actual situation. Compare not just on price but on coverage features, excess amounts, and claims handling reputation. Your family's security is worth the small investment in comprehensive protection.
+                  Use our comparison tool to get quotes from multiple insurers. By providing details about your family size, the number of bedrooms, your estimated contents value, and which optional features you need, you'll receive personalized quotes that reflect your actual situation. Compare not just on price but on coverage features, excess amounts, and claims handling reputation. Your family's security is worth the small investment in comprehensive protection.
                 </p>
               </div>
             </div>
@@ -422,7 +422,7 @@ export default function FamiliesPage() {
                     </li>
                     <li className="flex gap-2">
                       <span className="text-emerald-600 font-bold">✓</span>
-                      NZ-focused expertise
+                      Local expertise
                     </li>
                   </ul>
                 </div>

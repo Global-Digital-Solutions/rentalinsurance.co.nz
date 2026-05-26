@@ -16,7 +16,7 @@ export default function Footer() {
               <Logo variant="white" />
             </div>
             <p className="text-sm text-slate-400 mb-4">
-              Helping renters and tenants across New Zealand find the right contents insurance — no fees, no fuss.
+              Helping renters and tenants find the right contents insurance — no fees, no fuss.
             </p>
             <p className="text-xs text-slate-500">
               Powered by{' '}

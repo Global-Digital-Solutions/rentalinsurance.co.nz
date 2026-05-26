@@ -25,10 +25,10 @@ export default function ComparePage() {
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-center">
           <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-4">
-            Compare NZ Rental Insurance Providers
+            Compare Rental Insurance Providers
           </h1>
           <p className="text-base sm:text-xl text-slate-200 max-w-2xl mx-auto">
-            Find the best renters insurance policy with detailed side-by-side comparison of New Zealand's top providers
+            Find the best renters insurance policy with detailed side-by-side comparison of our top providers
           </p>
         </div>
       </section>
@@ -40,10 +40,10 @@ export default function ComparePage() {
           {/* Comparison Cards - Prominent placement right below hero */}
           <div className="mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-4 text-center">
-              Best Rental Insurance Providers in New Zealand
+              Best Rental Insurance Providers
             </h2>
             <p className="text-xl text-slate-600 text-center mb-12 max-w-3xl mx-auto">
-              Our comprehensive comparison of New Zealand's leading rental insurance providers. Each insurer is rated on coverage, price, customer service, and claims handling.
+              Our comprehensive comparison of leading rental insurance providers. Each insurer is rated on coverage, price, customer service, and claims handling.
             </p>
 
             <div className="grid grid-cols-1 gap-8">
@@ -184,13 +184,13 @@ export default function ComparePage() {
           {/* Understanding Policy Differences */}
           <div className="mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-8">
-              Understanding Policy Differences in NZ Rental Insurance
+              Understanding Policy Differences in Rental Insurance
             </h2>
             <div className="space-y-8">
               <div className="border-l-4 border-emerald-600 pl-6">
                 <h3 className="text-2xl font-bold text-slate-900 mb-3">Named Perils vs. Accidental Damage Coverage</h3>
                 <p className="text-slate-700 mb-4">
-                  Most standard rental insurance policies in New Zealand are "named perils" policies. This means they cover only specific events listed in the policy—such as fire, theft, burglary, and vandalism. Accidental damage (like dropping your laptop or spilling wine on furniture) is typically <strong>not</strong> covered unless you pay extra.
+                  Most standard rental insurance policies are "named perils" policies. This means they cover only specific events listed in the policy—such as fire, theft, burglary, and vandalism. Accidental damage (like dropping your laptop or spilling wine on furniture) is typically <strong>not</strong> covered unless you pay extra.
                 </p>
                 <p className="text-slate-700">
                   Some premium policies offer broader "all-risks" or accidental damage coverage as standard or add-ons. If accidents happen frequently in your household, paying for this additional coverage may provide valuable peace of mind.
@@ -203,7 +203,7 @@ export default function ComparePage() {
                   This distinction significantly affects how much you receive if you claim. <strong>Replacement value</strong> pays what it costs to replace your items brand new today. <strong>Indemnity value</strong> (or "new for old") accounts for depreciation—older items are worth less.
                 </p>
                 <p className="text-slate-700">
-                  Most NZ insurers default to replacement value for contents insurance, which is more favorable. Always confirm this before purchasing, as some policies use indemnity value, which could mean recovering considerably less than expected.
+                  Most insurers default to replacement value for contents insurance, which is more favorable. Always confirm this before purchasing, as some policies use indemnity value, which could mean recovering considerably less than expected.
                 </p>
               </div>
 
@@ -232,15 +232,15 @@ export default function ComparePage() {
           {/* NZ Insurance Market Overview */}
           <div className="mb-16 bg-emerald-50 rounded-lg p-8 lg:p-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-8">
-              New Zealand Rental Insurance Market Overview
+              Rental Insurance Market Overview
             </h2>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               <div>
                 <p className="text-lg text-slate-700 leading-relaxed mb-6">
-                  The rental insurance market in New Zealand has grown significantly over the past decade as more renters recognize the importance of protecting their personal possessions and liability. The Insurance Council of New Zealand (ICNZ) reports that contents insurance is one of the most commonly purchased insurance products among New Zealand households.
+                  The rental insurance market has grown significantly over the past decade as more renters recognize the importance of protecting their personal possessions and liability. The Insurance Council of New Zealand (ICNZ) reports that contents insurance is one of the most commonly purchased insurance products among New Zealand households.
                 </p>
                 <p className="text-lg text-slate-700 leading-relaxed mb-6">
-                  The market is served by both large, established insurers with decades of history in New Zealand and newer, digitally-native providers offering competitive rates and streamlined processes. This competition benefits consumers through improved pricing, online services, and customer service options.
+                  The market is served by both large, established insurers with decades of local history and newer, digitally-native providers offering competitive rates and streamlined processes. This competition benefits consumers through improved pricing, online services, and customer service options.
                 </p>
                 <p className="text-lg text-slate-700 leading-relaxed">
                   Major players in the market include national household name insurers, regional specialists, and growing online-first providers. Each brings different strengths—some excel at customer service, others at competitive pricing, and some at innovative coverage options.
@@ -371,7 +371,7 @@ export default function ComparePage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
                 <p className="text-lg text-slate-200 leading-relaxed mb-6">
-                  Our comparison methodology is designed to give you the most comprehensive view of each insurer's offerings. We evaluate multiple factors that matter to New Zealand renters, taking into account both quantitative metrics and qualitative feedback from customer reviews and industry ratings.
+                  Our comparison methodology is designed to give you the most comprehensive view of each insurer's offerings. We evaluate multiple factors that matter to renters, taking into account both quantitative metrics and qualitative feedback from customer reviews and industry ratings.
                 </p>
                 <p className="text-lg text-slate-200 leading-relaxed">
                   We update our comparison data regularly to ensure you're seeing current pricing, coverage options, and customer service ratings. Our goal is to help you make an informed decision based on complete and accurate information.
@@ -481,7 +481,7 @@ export default function ComparePage() {
               <div>
                 <h3 className="text-lg font-bold text-slate-900 mb-2">What's the difference between contents and rental insurance?</h3>
                 <p className="text-slate-700">
-                  In New Zealand, these terms are often used interchangeably. Rental insurance (or contents insurance) protects your personal possessions and covers liability if someone is injured in your home. It typically does not cover the building structure itself—that's the landlord's responsibility.
+                  These terms are often used interchangeably. Rental insurance (or contents insurance) protects your personal possessions and covers liability if someone is injured in your home. It typically does not cover the building structure itself—that's the landlord's responsibility.
                 </p>
               </div>
 
@@ -528,7 +528,7 @@ export default function ComparePage() {
               Ready to Find Your Best Rental Insurance?
             </h2>
             <p className="text-xl text-emerald-100 mb-8 max-w-2xl mx-auto">
-              Compare quotes from New Zealand's leading providers and find the coverage that's right for you at a price that fits your budget.
+              Compare quotes from our leading providers and find the coverage that's right for you at a price that fits your budget.
             </p>
             <Link
               href="/contact"

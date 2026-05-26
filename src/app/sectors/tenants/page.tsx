@@ -33,7 +33,7 @@ export default function TenantsPage() {
               Tenants Insurance
             </h1>
             <p className="text-base sm:text-xl text-slate-200 mb-8">
-              Protect your belongings and cover your liability while renting your home in New Zealand
+              Protect your belongings and cover your liability while renting your home
             </p>
             <Link
               href="/contact"
@@ -57,10 +57,10 @@ export default function TenantsPage() {
               <div>
                 <h2 className="text-3xl font-bold text-slate-900 mb-4">What is Tenants Insurance?</h2>
                 <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                  Tenants insurance, also known as renters insurance or contents insurance, is a comprehensive protection plan designed specifically for people renting homes, apartments, or other residential properties in New Zealand. Unlike landlord building insurance which covers the structure of the property itself, tenants insurance protects your personal belongings and shields you from liability claims if you accidentally cause damage to the rental property.
+                  Tenants insurance, also known as renters insurance or contents insurance, is a comprehensive protection plan designed specifically for people renting homes, apartments, or other residential properties. Unlike landlord building insurance which covers the structure of the property itself, tenants insurance protects your personal belongings and shields you from liability claims if you accidentally cause damage to the rental property.
                 </p>
                 <p className="text-lg text-slate-600 leading-relaxed">
-                  When you rent a home, you typically own your furniture, electronics, clothing, and other personal items, but your landlord owns the building and its fixtures. This distinction is crucial in New Zealand law and determines who is responsible for what. Tenants insurance bridges the gap by providing financial protection for everything you own while living in a rental property.
+                  When you rent a home, you typically own your furniture, electronics, clothing, and other personal items, but your landlord owns the building and its fixtures. This distinction is crucial in tenancy law and determines who is responsible for what. Tenants insurance bridges the gap by providing financial protection for everything you own while living in a rental property.
                 </p>
               </div>
 
@@ -68,7 +68,7 @@ export default function TenantsPage() {
               <div>
                 <h2 className="text-3xl font-bold text-slate-900 mb-4">Why Every Renter Needs Insurance</h2>
                 <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                  As a tenant in New Zealand, you're responsible for protecting your personal belongings and managing your liability for accidental damage to the property. Your landlord's building insurance doesn't cover your items or your liability, leaving you exposed to potentially significant financial losses.
+                  As a tenant, you're responsible for protecting your personal belongings and managing your liability for accidental damage to the property. Your landlord's building insurance doesn't cover your items or your liability, leaving you exposed to potentially significant financial losses.
                 </p>
                 <p className="text-lg text-slate-600 leading-relaxed mb-6">
                   Consider a common scenario: you accidentally cause a water leak that damages the landlord's kitchen and flooring, or you have a guest who damages furniture and walls. Without tenant liability insurance, you could be personally responsible for thousands of dollars in repairs. Additionally, if your belongings are stolen, damaged by fire, or destroyed in another incident, you have no insurance recovery without a tenants policy.
@@ -96,7 +96,7 @@ export default function TenantsPage() {
               <div>
                 <h2 className="text-3xl font-bold text-slate-900 mb-4">What Does Tenants Insurance Cover?</h2>
                 <p className="text-lg text-slate-600 leading-relaxed mb-6">
-                  Standard tenants insurance policies in New Zealand typically provide comprehensive coverage across multiple areas. Here's what you can expect to be covered:
+                  Standard tenants insurance policies typically provide comprehensive coverage across multiple areas. Here's what you can expect to be covered:
                 </p>
 
                 <h3 className="text-xl font-bold text-slate-900 mb-4">Standard Coverage Included:</h3>
@@ -171,7 +171,7 @@ export default function TenantsPage() {
               <div>
                 <h2 className="text-3xl font-bold text-slate-900 mb-4">How Much Does Tenants Insurance Cost?</h2>
                 <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                  Tenants insurance in New Zealand is remarkably affordable, with most people paying between $15 and $35 per month depending on various factors. For many renters, it's one of the best value insurance products available, given the comprehensive protection it provides.
+                  Tenants insurance is remarkably affordable, with most people paying between $15 and $35 per month depending on various factors. For many renters, it's one of the best value insurance products available, given the comprehensive protection it provides.
                 </p>
 
                 <h3 className="text-xl font-bold text-slate-900 mb-4">Factors That Affect Your Premium:</h3>

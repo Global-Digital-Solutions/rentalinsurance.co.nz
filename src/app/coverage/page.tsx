@@ -33,7 +33,7 @@ export default function CoveragePage() {
             Rental Insurance Coverage Guide
           </h1>
           <p className="text-base sm:text-xl text-slate-200 max-w-2xl mx-auto">
-            Everything NZ renters need to know about what rental insurance covers, what it excludes, and how to choose the right level of protection
+            Everything renters need to know about what rental insurance covers, what it excludes, and how to choose the right level of protection
           </p>
         </div>
       </section>
@@ -163,13 +163,13 @@ export default function CoveragePage() {
             <h2 className="text-3xl font-bold text-slate-900 mb-6">Understanding Rental Insurance Coverage</h2>
             <div className="space-y-5 text-slate-600 leading-relaxed text-lg">
               <p>
-                Rental insurance in New Zealand — also commonly referred to as tenants insurance, renters insurance, or contents insurance for renters — is designed to protect your personal belongings and cover your financial liability while renting a property. It is important to understand that your landlord's insurance policy covers the building itself (the structure, roof, plumbing, and fixtures), but it does <strong>not</strong> extend to any of your personal possessions inside the home.
+                Rental insurance — also commonly referred to as tenants insurance, renters insurance, or contents insurance for renters — is designed to protect your personal belongings and cover your financial liability while renting a property. It is important to understand that your landlord's insurance policy covers the building itself (the structure, roof, plumbing, and fixtures), but it does <strong>not</strong> extend to any of your personal possessions inside the home.
               </p>
               <p>
-                A comprehensive rental insurance policy in NZ typically provides four key areas of protection: contents cover for your personal belongings, tenant liability cover for accidental damage to the property, temporary accommodation costs if your home becomes uninhabitable, and in some cases, legal expense cover. The specific coverage details, limits, and exclusions vary between insurers, which is why comparing policies is essential before purchasing.
+                A comprehensive rental insurance policy typically provides four key areas of protection: contents cover for your personal belongings, tenant liability cover for accidental damage to the property, temporary accommodation costs if your home becomes uninhabitable, and in some cases, legal expense cover. The specific coverage details, limits, and exclusions vary between insurers, which is why comparing policies is essential before purchasing.
               </p>
               <p>
-                In New Zealand, rental insurance and contents insurance are effectively the same product. Many insurers advertise "renters insurance" as a product category, but when you purchase the policy, it will be a contents insurance policy with optional tenant liability cover. When comparing, always check that the policy includes both contents protection <strong>and</strong> tenant liability to ensure you have full coverage.
+                Rental insurance and contents insurance are effectively the same product. Many insurers advertise "renters insurance" as a product category, but when you purchase the policy, it will be a contents insurance policy with optional tenant liability cover. When comparing, always check that the policy includes both contents protection <strong>and</strong> tenant liability to ensure you have full coverage.
               </p>
             </div>
           </div>
@@ -245,7 +245,7 @@ export default function CoveragePage() {
           <h2 className="text-3xl font-bold text-slate-900 mb-6">How Much Rental Insurance Cover Do You Need?</h2>
           <div className="space-y-5 text-slate-600 leading-relaxed text-lg">
             <p>
-              One of the most common mistakes NZ renters make is either underinsuring or overinsuring their belongings. Underinsuring means you won't receive enough to replace everything if the worst happens, while overinsuring means you're paying more in premiums than necessary. Getting the sum insured right is crucial.
+              One of the most common mistakes renters make is either underinsuring or overinsuring their belongings. Underinsuring means you won't receive enough to replace everything if the worst happens, while overinsuring means you're paying more in premiums than necessary. Getting the sum insured right is crucial.
             </p>
             <p>
               To calculate the right level of cover, walk through every room in your rental and make a list of everything you own, estimating the <strong>replacement cost</strong> (not the second-hand value) of each item. Most insurers pay out based on what it would cost to buy a new equivalent item, so your calculation should reflect current retail prices.
@@ -319,7 +319,7 @@ export default function CoveragePage() {
           <h2 className="text-3xl font-bold text-slate-900 mb-6">Tenant Liability Cover Explained</h2>
           <div className="space-y-5 text-slate-600 leading-relaxed text-lg">
             <p>
-              Tenant liability cover is a critical component of any rental insurance policy in New Zealand. This section of your policy protects you financially if you accidentally damage the rental property. Common scenarios where tenant liability cover would apply include accidentally starting a kitchen fire, leaving a bath running and causing water damage to floors or ceilings, breaking a window or door, or causing damage to fixed carpets or curtains.
+              Tenant liability cover is a critical component of any rental insurance policy. This section of your policy protects you financially if you accidentally damage the rental property. Common scenarios where tenant liability cover would apply include accidentally starting a kitchen fire, leaving a bath running and causing water damage to floors or ceilings, breaking a window or door, or causing damage to fixed carpets or curtains.
             </p>
             <p>
               Under New Zealand's Residential Tenancies Act (as amended in 2019), tenants who cause <strong>careless or accidental damage</strong> have their liability capped at the lowest of three amounts: the actual cost of the damage, four weeks' rent, or the landlord's insurance excess. This provides significant protection, but tenant liability insurance goes further by covering the cost up to your policy limit (typically $2M) and handling the claims process on your behalf.
@@ -333,7 +333,7 @@ export default function CoveragePage() {
               <div>
                 <h4 className="font-bold text-slate-900 mb-1">Do I Still Need Liability Cover With the 2019 Law Changes?</h4>
                 <p className="text-slate-700 text-base">
-                  Yes. While the 2019 amendments significantly reduced tenant liability for accidental damage, having your own liability cover provides several additional benefits: it covers legal defence costs if there's a dispute about whether damage was accidental or intentional, it covers damage to common areas in apartment buildings, and it provides cover for situations that may fall outside the statutory caps. Most NZ insurance advisors still recommend including tenant liability as part of your rental insurance policy.
+                  Yes. While the 2019 amendments significantly reduced tenant liability for accidental damage, having your own liability cover provides several additional benefits: it covers legal defence costs if there's a dispute about whether damage was accidental or intentional, it covers damage to common areas in apartment buildings, and it provides cover for situations that may fall outside the statutory caps. Most insurance advisors still recommend including tenant liability as part of your rental insurance policy.
                 </p>
               </div>
             </div>
@@ -385,7 +385,7 @@ export default function CoveragePage() {
               Get Your Personalised Coverage Quote
             </h2>
             <p className="text-slate-600 text-lg">
-              Complete the form below and we'll match you with the right coverage from NZ's leading insurers. It takes less than 2 minutes.
+              Complete the form below and we'll match you with the right coverage from our leading insurers. It takes less than 2 minutes.
             </p>
           </div>
           <div className="rounded-2xl border-2 border-emerald-400 bg-white shadow-lg shadow-emerald-100/60 p-6 sm:p-8">

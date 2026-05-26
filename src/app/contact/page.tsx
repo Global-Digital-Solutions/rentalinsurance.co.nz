@@ -87,7 +87,7 @@ export default function ContactPage() {
                     'FSP compliant referral service',
                     'No fees — ever',
                     '100% secure enquiry form',
-                    'NZ owned &amp; operated',
+                    'Locally owned &amp; operated',
                   ].map((item) => (
                     <li key={item} className="flex items-center gap-2">
                       <CheckCircle className="w-4 h-4 text-emerald-600 flex-shrink-0" />

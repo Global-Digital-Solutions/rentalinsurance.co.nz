@@ -8,7 +8,7 @@ export default function CTABanner() {
           Ready to Protect Your Belongings?
         </h2>
         <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-          Get a no-obligation quote from NZ's leading rental insurers. Takes less than 2 minutes.
+          Get a no-obligation quote from our leading rental insurers. Takes less than 2 minutes.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link

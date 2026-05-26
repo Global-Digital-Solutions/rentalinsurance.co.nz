@@ -32,7 +32,7 @@ export default function AboutPage() {
             About RentalInsurance.co.nz
           </h1>
           <p className="text-base sm:text-xl text-slate-200">
-            Making rental insurance simple, transparent, and accessible for all New Zealand renters
+            Making rental insurance simple, transparent, and accessible for every renter
           </p>
         </div>
       </section>
@@ -46,10 +46,10 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-bold text-slate-900 mb-6">What is RentalInsurance.co.nz?</h2>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                RentalInsurance.co.nz is an independent rental insurance comparison platform designed specifically for New Zealand renters. We are not an insurance company ourselves – instead, we act as a trusted intermediary connecting renters with quotes from New Zealand's top insurance providers.
+                RentalInsurance.co.nz is an independent rental insurance comparison platform designed specifically for renters. We are not an insurance company ourselves – instead, we act as a trusted intermediary connecting renters with quotes from our top insurance providers.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                As part of the Cover4You brand, we operate as part of a portfolio of NZ insurance comparison websites dedicated to helping Kiwis find the right coverage at the right price. Our focus is purely on serving renters and tenant insurance seekers with honest, transparent information and competitive quotes.
+                As part of the Cover4You brand, we operate as part of a portfolio of insurance comparison websites dedicated to helping Kiwis find the right coverage at the right price. Our focus is purely on serving renters and tenant insurance seekers with honest, transparent information and competitive quotes.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed">
                 Whether you're a first-time renter looking for basic coverage or an experienced tenant wanting to optimize your insurance costs, RentalInsurance.co.nz provides the tools and information you need to make informed decisions about your rental insurance.
@@ -60,10 +60,10 @@ export default function AboutPage() {
             <div className="bg-emerald-50 border-l-4 border-emerald-600 rounded-lg p-8">
               <h2 className="text-3xl font-bold text-slate-900 mb-4">Our Mission</h2>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                We believe every renter in New Zealand deserves access to affordable, transparent rental insurance without confusion, pressure, or hidden fees.
+                We believe every renter deserves access to affordable, transparent rental insurance without confusion, pressure, or hidden fees.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Our mission is to remove barriers to rental insurance by creating a simple, straightforward comparison platform that puts renters in control. We provide instant quotes from NZ's top insurers in one place, help you understand different coverage options, and empower you to make the best insurance decision for your individual situation.
+                Our mission is to remove barriers to rental insurance by creating a simple, straightforward comparison platform that puts renters in control. We provide instant quotes from our top insurers in one place, help you understand different coverage options, and empower you to make the best insurance decision for your individual situation.
               </p>
             </div>
 
@@ -96,7 +96,7 @@ export default function AboutPage() {
                   <div>
                     <h3 className="text-lg font-bold text-slate-900 mb-2">Compare Instant Quotes</h3>
                     <p className="text-slate-600">
-                      We match your information with quotes from multiple NZ insurers. You'll see side-by-side comparisons of prices, coverage options, and features from different providers.
+                      We match your information with quotes from multiple insurers. You'll see side-by-side comparisons of prices, coverage options, and features from different providers.
                     </p>
                   </div>
                 </div>
@@ -163,10 +163,10 @@ export default function AboutPage() {
                 <div className="bg-slate-50 rounded-lg p-6 border border-slate-200">
                   <div className="flex items-center gap-3 mb-3">
                     <Users className="w-6 h-6 text-emerald-600 flex-shrink-0" />
-                    <h3 className="text-lg font-bold text-slate-900">NZ-Focused Service</h3>
+                    <h3 className="text-lg font-bold text-slate-900">Local Expertise</h3>
                   </div>
                   <p className="text-slate-600">
-                    We specialize in New Zealand rental insurance. We understand the NZ market, local regulations, and the specific needs of Kiwi renters.
+                    We specialize in rental insurance. We understand the local market, regulations, and the specific needs of Kiwi renters.
                   </p>
                 </div>
               </div>
@@ -176,7 +176,7 @@ export default function AboutPage() {
             <div className="bg-slate-50 rounded-lg p-8 border border-slate-200">
               <h2 className="text-3xl font-bold text-slate-900 mb-6">The Rental Insurance Market</h2>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Rental insurance is increasingly important in New Zealand. Here's why our service matters:
+                Rental insurance is increasingly important for renters. Here's why our service matters:
               </p>
               <ul className="space-y-3 mb-6 text-slate-600">
                 <li className="flex gap-3">
@@ -197,7 +197,7 @@ export default function AboutPage() {
                 </li>
               </ul>
               <p className="text-lg text-slate-600 leading-relaxed">
-                RentalInsurance.co.nz exists to make it easy for NZ renters to access this market and find coverage that fits their budget and needs.
+                RentalInsurance.co.nz exists to make it easy for renters to access this market and find coverage that fits their budget and needs.
               </p>
             </div>
 
@@ -205,7 +205,7 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-bold text-slate-900 mb-6">Our Insurance Partners</h2>
               <p className="text-lg text-slate-600 leading-relaxed mb-6">
-                We compare rental insurance quotes from New Zealand's leading insurers, ensuring you have access to competitive options from trusted providers:
+                We compare rental insurance quotes from our leading insurers, ensuring you have access to competitive options from trusted providers:
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="bg-white border-2 border-emerald-200 rounded-lg p-6">
@@ -234,7 +234,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <p className="text-slate-600 mt-6">
-                By comparing quotes from these top providers, you're assured of getting competitive options from NZ's most reputable insurers. We regularly update our partner relationships to ensure you always have access to the best available quotes.
+                By comparing quotes from these top providers, you're assured of getting competitive options from our most reputable insurers. We regularly update our partner relationships to ensure you always have access to the best available quotes.
               </p>
             </div>
 
@@ -242,7 +242,7 @@ export default function AboutPage() {
             <div className="bg-emerald-600 text-white rounded-lg p-8">
               <h2 className="text-3xl font-bold mb-6">Our Commitment to Renters</h2>
               <p className="text-lg mb-6 text-emerald-50">
-                We're committed to serving New Zealand renters with integrity, transparency, and genuine expertise. Our commitments include:
+                We're committed to serving renters with integrity, transparency, and genuine expertise. Our commitments include:
               </p>
               <ul className="space-y-4">
                 <li className="flex gap-3">
@@ -356,7 +356,7 @@ export default function AboutPage() {
                 Ready to Compare Rental Insurance?
               </h2>
               <p className="text-lg text-slate-600 mb-8">
-                Get instant quotes from New Zealand's top insurers. It takes less than 2 minutes with no obligation to purchase.
+                Get instant quotes from our top insurers. It takes less than 2 minutes with no obligation to purchase.
               </p>
               <Link
                 href="/"

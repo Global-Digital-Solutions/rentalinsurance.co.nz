@@ -55,11 +55,11 @@ export default function FlatmatesPage() {
             <div className="lg:col-span-2 space-y-8">
               <h2 className="text-3xl font-bold text-slate-900">Why Flatmates Need Individual Insurance</h2>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Sharing a flat in New Zealand is an affordable way to live, but it comes with unique insurance challenges. Many flatmates assume they're covered under a shared policy or that their landlord's insurance will protect them, but this is a dangerous misconception. Each person living in a shared flat needs their own separate rental insurance policy to protect both their personal belongings and their financial liability if something goes wrong.
+                Sharing a flat is an affordable way to live, but it comes with unique insurance challenges. Many flatmates assume they're covered under a shared policy or that their landlord's insurance will protect them, but this is a dangerous misconception. Each person living in a shared flat needs their own separate rental insurance policy to protect both their personal belongings and their financial liability if something goes wrong.
               </p>
 
               <p className="text-lg text-slate-600 leading-relaxed">
-                When you live with other people, you're not just protecting your own possessions—you're also managing your legal exposure to claims for damage you might cause to the rental property. Under New Zealand law and the Residential Tenancies Act, landlords can hold any or all tenants jointly and severally liable for damage to the property. Without individual liability insurance, you could be personally responsible for thousands of dollars in repairs you didn't directly cause.
+                When you live with other people, you're not just protecting your own possessions—you're also managing your legal exposure to claims for damage you might cause to the rental property. Under tenancy law and the Residential Tenancies Act, landlords can hold any or all tenants jointly and severally liable for damage to the property. Without individual liability insurance, you could be personally responsible for thousands of dollars in repairs you didn't directly cause.
               </p>
 
               <h2 className="text-3xl font-bold text-slate-900 mt-12">Flatmate Insurance Essentials</h2>
@@ -89,7 +89,7 @@ export default function FlatmatesPage() {
               </p>
 
               <p className="text-lg text-slate-600 leading-relaxed">
-                Your personal liability coverage protects you if you accidentally cause damage to the rental property that the landlord could legally claim from you. For example, if you accidentally damage the kitchen bench, flood the bathroom, or cause a fire through cooking accidents, your liability insurance would help cover those costs. This coverage is crucial in a flat share situation because landlords expect to recover damages from the tenants responsible, and New Zealand law supports this approach.
+                Your personal liability coverage protects you if you accidentally cause damage to the rental property that the landlord could legally claim from you. For example, if you accidentally damage the kitchen bench, flood the bathroom, or cause a fire through cooking accidents, your liability insurance would help cover those costs. This coverage is crucial in a flat share situation because landlords expect to recover damages from the tenants responsible, and tenancy law supports this approach.
               </p>
 
               <p className="text-lg text-slate-600 leading-relaxed">
@@ -134,7 +134,7 @@ export default function FlatmatesPage() {
               <div className="bg-yellow-50 border-l-4 border-yellow-600 p-6 rounded mt-4">
                 <h4 className="font-bold text-yellow-900 mb-3">Damage Caused by Tenants (Joint Liability Issues)</h4>
                 <p className="text-yellow-800">
-                  While your liability insurance covers damage you personally cause, it does not cover damage caused by other flatmates if they don't have insurance or if their insurance doesn't cover the incident. However, under NZ law, landlords can pursue any or all tenants for damage. Your policy protects you from claims, but only if the damage is found to be your responsibility. If the landlord claims against all of you for damage no one will admit to causing, you may need to navigate disputes with both the landlord and your flatmates.
+                  While your liability insurance covers damage you personally cause, it does not cover damage caused by other flatmates if they don't have insurance or if their insurance doesn't cover the incident. However, under tenancy law, landlords can pursue any or all tenants for damage. Your policy protects you from claims, but only if the damage is found to be your responsibility. If the landlord claims against all of you for damage no one will admit to causing, you may need to navigate disputes with both the landlord and your flatmates.
                 </p>
               </div>
 
@@ -237,7 +237,7 @@ export default function FlatmatesPage() {
 
               <h3 className="text-2xl font-bold text-slate-900 mt-10">Bond vs Insurance: How They Work Together</h3>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Many flatmates misunderstand the relationship between their bond and insurance. Your bond is money held by the landlord as security against damage to the property and unpaid rent. It's typically equivalent to four weeks' rent and must be held by the Rental Bonds Centre (a government body in New Zealand).
+                Many flatmates misunderstand the relationship between their bond and insurance. Your bond is money held by the landlord as security against damage to the property and unpaid rent. It's typically equivalent to four weeks' rent and must be held by the Rental Bonds Centre (a government body).
               </p>
 
               <p className="text-lg text-slate-600 leading-relaxed">
@@ -255,7 +255,7 @@ export default function FlatmatesPage() {
               <div className="bg-emerald-50 border-l-4 border-emerald-600 p-6 rounded mt-4">
                 <h4 className="font-semibold text-slate-900 mb-2">Understanding Shared Liability</h4>
                 <p className="text-slate-700 text-sm mb-3">
-                  When you live with flatmates, liability for damage to the rental property is shared. Under NZ law, the landlord can claim against any or all of you. Your tenant liability insurance protects you from these costs. Your insurance covers your portion of shared liability claims and protects you even if other flatmates don't have insurance or can't afford to pay.
+                  When you live with flatmates, liability for damage to the rental property is shared. Under tenancy law, the landlord can claim against any or all of you. Your tenant liability insurance protects you from these costs. Your insurance covers your portion of shared liability claims and protects you even if other flatmates don't have insurance or can't afford to pay.
                 </p>
                 <p className="text-slate-700 text-sm">
                   If Flatmate A causes $5,000 of damage, their liability insurance covers their portion of that damage. But if damage occurs and no one admits fault, all flatmates could be pursued. This is why everyone needs individual coverage—you can't rely on others to be insured.
@@ -358,7 +358,7 @@ export default function FlatmatesPage() {
               </p>
 
               <p className="text-lg text-slate-600 leading-relaxed">
-                For personal liability, aim for at least $2-5 million in coverage. This is standard in NZ rental insurance and protects you against large claims. Some policies offer higher limits for minimal extra cost, so check what's available.
+                For personal liability, aim for at least $2-5 million in coverage. This is standard in rental insurance and protects you against large claims. Some policies offer higher limits for minimal extra cost, so check what's available.
               </p>
 
               <p className="text-lg text-slate-600 leading-relaxed">

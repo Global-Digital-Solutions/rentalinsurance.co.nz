@@ -35,7 +35,7 @@ export default function ThankYouPage() {
             <div className="text-left">
               <p className="font-semibold text-slate-900">Check Your Email</p>
               <p className="text-sm text-slate-600">
-                We'll send you quotes from NZ's top insurers within 24 hours.
+                We'll send you quotes from our top insurers within 24 hours.
               </p>
             </div>
           </div>

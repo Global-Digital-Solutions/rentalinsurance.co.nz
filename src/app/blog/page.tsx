@@ -25,7 +25,7 @@ export default function BlogPage() {
             Guides & Resources
           </h1>
           <p className="text-base sm:text-xl text-emerald-100">
-            Expert guides and insights for NZ renters
+            Expert guides and insights for renters
           </p>
         </div>
       </section>

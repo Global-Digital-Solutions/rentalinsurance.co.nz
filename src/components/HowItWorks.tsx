@@ -34,7 +34,7 @@ export default function HowItWorks() {
       number: 2,
       title: 'Compare Top Insurers',
       description:
-        'We compare quotes from NZ\'s leading rental insurers to find you the best deal.',
+        'We compare quotes from our leading rental insurers to find you the best deal.',
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path

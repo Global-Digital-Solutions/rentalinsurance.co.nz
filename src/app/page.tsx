@@ -129,7 +129,7 @@ export default function HomePage() {
               Protect Your Belongings with the Right Rental Insurance
             </h1>
             <p className="mb-6 sm:mb-8 text-base text-slate-200 sm:text-xl lg:text-2xl">
-              Compare quotes from NZ's leading insurers in minutes. Get the coverage you need at a price you'll love, from just $20/month.
+              Compare quotes from our leading insurers in minutes. Get the coverage you need at a price you'll love, from just $20/month.
             </p>
 
             {/* CTA Buttons */}
@@ -162,7 +162,7 @@ export default function HomePage() {
               Coverage for Every Renter
             </h2>
             <p className="text-slate-600 text-lg max-w-2xl mx-auto">
-              Whether you're a solo tenant, student, flatmate, or family renting in New Zealand — we have a policy built around you.
+              Whether you're a solo tenant, student, flatmate, or family — we have a policy built around you.
             </p>
           </div>
 
@@ -224,13 +224,13 @@ export default function HomePage() {
           </h2>
           <div className="prose prose-lg prose-slate max-w-none space-y-5 text-slate-600 leading-relaxed">
             <p>
-              Rental insurance — also known as tenants insurance, renters insurance, or contents insurance for renters — is a policy that protects your personal belongings and covers your liability while you are renting a property in New Zealand. While your landlord's insurance covers the building itself, it does <strong>not</strong> cover your possessions inside the home. That means if a fire, burglary, flood, or accidental event damages or destroys your belongings, you would need to replace everything out of your own pocket unless you have rental insurance in place.
+              Rental insurance — also known as tenants insurance, renters insurance, or contents insurance for renters — is a policy that protects your personal belongings and covers your liability while you are renting a property. While your landlord's insurance covers the building itself, it does <strong>not</strong> cover your possessions inside the home. That means if a fire, burglary, flood, or accidental event damages or destroys your belongings, you would need to replace everything out of your own pocket unless you have rental insurance in place.
             </p>
             <p>
               In New Zealand, around 36% of households are renters according to Stats NZ, yet many renters remain uninsured. A standard rental insurance policy typically covers the repair or replacement of personal belongings such as furniture, electronics, clothing, appliances, and valuables. Most policies also include tenant liability cover, which protects you if you accidentally damage the rental property — for example, leaving a tap running that causes water damage, or accidentally starting a kitchen fire.
             </p>
             <p>
-              It is important to understand that rental insurance and contents insurance are effectively the same product. Many NZ insurers market "renters insurance" but will direct you to their contents insurance policy. When comparing policies, look for a contents insurance policy that includes both contents cover and tenant liability cover to ensure you have full protection.
+              It is important to understand that rental insurance and contents insurance are effectively the same product. Many insurers market "renters insurance" but will direct you to their contents insurance policy. When comparing policies, look for a contents insurance policy that includes both contents cover and tenant liability cover to ensure you have full protection.
             </p>
           </div>
         </div>
@@ -358,7 +358,7 @@ export default function HomePage() {
           </h2>
           <div className="prose prose-lg prose-slate max-w-none space-y-5 text-slate-600 leading-relaxed">
             <p>
-              The cost of rental insurance in New Zealand varies depending on several factors, but most renters can expect to pay between <strong>$20 and $70 per month</strong> for a standard contents insurance policy. On average, NZ renters pay approximately $600 to $850 per year for comprehensive cover, though basic policies for lower sum insured amounts (e.g. $25,000 cover) can be found for as little as $400 per year.
+              The cost of rental insurance varies depending on several factors, but most renters can expect to pay between <strong>$20 and $70 per month</strong> for a standard contents insurance policy. On average, renters pay approximately $600 to $850 per year for comprehensive cover, though basic policies for lower sum insured amounts (e.g. $25,000 cover) can be found for as little as $400 per year.
             </p>
 
             <h3 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Factors That Affect Your Premium</h3>
@@ -382,7 +382,7 @@ export default function HomePage() {
 
             <h3 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Regional Pricing Guide</h3>
             <p>
-              Insurance premiums in New Zealand vary significantly by region, largely driven by natural hazard risk profiles. Here is a general guide to what renters can expect to pay in major NZ cities:
+              Insurance premiums vary significantly by region, largely driven by natural hazard risk profiles. Here is a general guide to what renters can expect to pay in major cities:
             </p>
             <div className="overflow-x-auto my-6">
               <table className="w-full border-collapse bg-white rounded-lg overflow-hidden border border-slate-200">
@@ -428,7 +428,7 @@ export default function HomePage() {
           </h2>
           <div className="space-y-5 text-slate-600 leading-relaxed text-lg">
             <p>
-              Getting the right rental insurance doesn't have to break the bank. Here are practical ways NZ renters can reduce their premiums while maintaining solid coverage:
+              Getting the right rental insurance doesn't have to break the bank. Here are practical ways renters can reduce their premiums while maintaining solid coverage:
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 my-6">
               {[
@@ -510,7 +510,7 @@ export default function HomePage() {
               Get Your Quote Today
             </h2>
             <p className="text-slate-600 text-lg max-w-2xl mx-auto">
-              Complete the form below and we'll show you quotes from NZ's top rental insurers. Takes less than 2 minutes.
+              Complete the form below and we'll show you quotes from our top rental insurers. Takes less than 2 minutes.
             </p>
           </div>
 

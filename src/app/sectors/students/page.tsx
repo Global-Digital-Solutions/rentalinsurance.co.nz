@@ -34,7 +34,7 @@ export default function StudentsPage() {
               Student Accommodation Insurance
             </h1>
             <p className="text-base sm:text-xl text-slate-200 mb-8">
-              Affordable rental contents insurance designed for university halls, student flats, and shared accommodation across New Zealand
+              Affordable rental contents insurance designed for university halls, student flats, and shared accommodation
             </p>
             <Link
               href="/contact"
@@ -57,7 +57,7 @@ export default function StudentsPage() {
               <div className="space-y-4">
                 <h2 className="text-3xl font-bold text-slate-900">What is Student Contents Insurance?</h2>
                 <p className="text-lg text-slate-600 leading-relaxed">
-                  Student contents insurance is a specialist form of rental insurance designed specifically for university accommodation. Whether you're living in university halls of residence, a student flat in shared housing, or a private rental as a student, contents insurance protects your personal belongings against theft, accidental damage, water damage, fire, and other covered perils. In New Zealand, most university halls of residence and many student landlords require incoming students to have contents insurance in place before moving in.
+                  Student contents insurance is a specialist form of rental insurance designed specifically for university accommodation. Whether you're living in university halls of residence, a student flat in shared housing, or a private rental as a student, contents insurance protects your personal belongings against theft, accidental damage, water damage, fire, and other covered perils. Most university halls of residence and many student landlords require incoming students to have contents insurance in place before moving in.
                 </p>
                 <p className="text-lg text-slate-600 leading-relaxed">
                   Unlike building insurance (which covers the structure and fixtures of the property itself), contents insurance specifically covers your possessions - everything from your laptop and phone to furniture, clothing, textbooks, and personal electronics. For students, this is critically important as your belongings often represent the largest asset you own during your university years.
@@ -70,7 +70,7 @@ export default function StudentsPage() {
                   Student accommodation presents unique risks that require specific protection. University halls and student flats typically house multiple young people in close proximity, with shared facilities like kitchens and bathrooms. This environment creates a higher likelihood of accidental damage - a flatmate's cooking accident causing water damage to your room, a spilled drink damaging your laptop, or property damage during a social gathering. Additionally, student accommodation can face higher rates of theft and burglary, particularly of high-value electronics that students rely on for their studies.
                 </p>
                 <p className="text-lg text-slate-600 leading-relaxed">
-                  Most university halls of residence in New Zealand - including those at the University of Auckland, University of Otago, Victoria University of Wellington, University of Canterbury, and Massey University - require students to hold contents insurance as part of their accommodation agreement. Many private landlords renting to student tenants impose the same requirement. Beyond the practical requirement, contents insurance gives you peace of mind knowing that if disaster strikes, you won't face financial hardship or be unable to continue your studies due to lost or damaged belongings.
+                  Most university halls of residence - including those at the University of Auckland, University of Otago, Victoria University of Wellington, University of Canterbury, and Massey University - require students to hold contents insurance as part of their accommodation agreement. Many private landlords renting to student tenants impose the same requirement. Beyond the practical requirement, contents insurance gives you peace of mind knowing that if disaster strikes, you won't face financial hardship or be unable to continue your studies due to lost or damaged belongings.
                 </p>
               </div>
 
@@ -80,7 +80,7 @@ export default function StudentsPage() {
                   Many students assume they're covered under their parents' contents insurance policy. However, this is a critical misconception that can leave you unprotected. Most residential contents insurance policies only provide coverage for the policyholder's own home and may exclude or provide limited coverage for adult children living away at university. Some policies may offer cover for student children in halls of residence, but typically with significant restrictions and limited sum insured amounts.
                 </p>
                 <p className="text-lg text-slate-600 leading-relaxed">
-                  Additionally, parent policies may not cover accidental damage, party liability, or other perils that are standard in student-specific insurance. The best approach is to check with your parents' insurer about what (if any) coverage extends to you at university, but also secure your own dedicated student contents insurance. Student policies are specifically designed with your needs in mind and typically cost between NZ$180-$900 per year depending on your sum insured and level of cover, providing genuine protection tailored to student life.
+                  Additionally, parent policies may not cover accidental damage, party liability, or other perils that are standard in student-specific insurance. The best approach is to check with your parents' insurer about what (if any) coverage extends to you at university, but also secure your own dedicated student contents insurance. Student policies are specifically designed with your needs in mind and typically cost between $180-$900 per year depending on your sum insured and level of cover, providing genuine protection tailored to student life.
                 </p>
               </div>
 
@@ -125,7 +125,7 @@ export default function StudentsPage() {
               <div className="space-y-4">
                 <h2 className="text-3xl font-bold text-slate-900">Common Student Insurance Claims</h2>
                 <p className="text-lg text-slate-600 leading-relaxed">
-                  Understanding common student claims helps explain why insurance is so valuable. Rental Insurance NZ processes thousands of claims annually, and certain types of claims are particularly common among student policyholders:
+                  Understanding common student claims helps explain why insurance is so valuable. We process thousands of claims annually, and certain types of claims are particularly common among student policyholders:
                 </p>
 
                 <div className="space-y-4">
@@ -165,7 +165,7 @@ export default function StudentsPage() {
                   Student contents insurance is remarkably affordable, with premiums structured to reflect the typically lower sum insured and younger age profile of student policyholders. Average costs range significantly based on several factors:
                 </p>
                 <p className="text-lg text-slate-600 leading-relaxed">
-                  For a student with a sum insured of NZ$5,000-$8,000 (common for those in halls with minimal furniture), annual premiums typically range from NZ$180-$300, or roughly $15-$25 per month. Students in flats with more possessions and higher sum insured amounts ($10,000-$15,000) typically pay between NZ$350-$550 annually. Those with comprehensive sum insured values of $15,000-$20,000 (including furniture, extensive electronics, and personal items) can expect to pay NZ$600-$900 per year.
+                  For a student with a sum insured of $5,000-$8,000 (common for those in halls with minimal furniture), annual premiums typically range from $180-$300, or roughly $15-$25 per month. Students in flats with more possessions and higher sum insured amounts ($10,000-$15,000) typically pay between $350-$550 annually. Those with comprehensive sum insured values of $15,000-$20,000 (including furniture, extensive electronics, and personal items) can expect to pay $600-$900 per year.
                 </p>
                 <p className="text-lg text-slate-600 leading-relaxed">
                   The most cost-effective approach for students is to accurately assess what you actually own and need to insure. Don't overestimate your sum insured just because you think you might buy items later - you can adjust your cover mid-year if needed. Conversely, don't under-insure and find yourself facing a claim you can't cover. Choose a reasonable excess (often $250-$500 for students) to lower your premium - if you're careful with your belongings, you're less likely to claim anyway.
@@ -232,14 +232,14 @@ export default function StudentsPage() {
               <div className="bg-emerald-50 border-l-4 border-emerald-600 p-6 rounded">
                 <h4 className="font-semibold text-slate-900 mb-2">Special Note for International Students</h4>
                 <p className="text-slate-700">
-                  If you're an international student attending a New Zealand university on a student visa, contents insurance is especially important. Most universities and accommodation providers require proof of insurance before you can move in. Additionally, under the NZQA Code of Practice for International Students, your institution may have specific insurance requirements. Ensure your policy covers you as an international student and check any exclusions related to overseas visitors or temporary residence.
+                  If you're an international student attending university on a student visa, contents insurance is especially important. Most universities and accommodation providers require proof of insurance before you can move in. Additionally, under the NZQA Code of Practice for International Students, your institution may have specific insurance requirements. Ensure your policy covers you as an international student and check any exclusions related to overseas visitors or temporary residence.
                 </p>
               </div>
 
               <div className="space-y-4 mt-8">
                 <h2 className="text-3xl font-bold text-slate-900">Student Insurance Across Our Universities</h2>
                 <p className="text-lg text-slate-600 leading-relaxed">
-                  Requirements and common claims vary across New Zealand's major university cities. The University of Auckland explicitly requires contents insurance for all halls residents, with typical coverage needed around $8,000-$12,000 sum insured for those in residential colleges and halls in areas like Mount Eden and Epsom. Auckland's rental market and student accommodation face particular risks around break-ins in older villa-style flats in the student zone.
+                  Requirements and common claims vary across our major university cities. The University of Auckland explicitly requires contents insurance for all halls residents, with typical coverage needed around $8,000-$12,000 sum insured for those in residential colleges and halls in areas like Mount Eden and Epsom. Auckland's rental market and student accommodation face particular risks around break-ins in older villa-style flats in the student zone.
                 </p>
                 <p className="text-lg text-slate-600 leading-relaxed">
                   At the University of Otago in Dunedin, halls residents and flat dwellers face different challenges - Dunedin's cold, damp climate means water damage and mold claims are common, while the city's student culture means higher rates of accidental damage claims. Victoria University of Wellington students in Willis Street flats or university housing in Kelburn typically need good water damage and accidental damage coverage due to the city's weather and older housing stock. University of Canterbury accommodation in Christchurch has specific earthquake-related considerations, and Massey University Palmerston North and Auckland campuses both have strong requirements for student insurance.
