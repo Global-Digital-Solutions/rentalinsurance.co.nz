@@ -355,7 +355,7 @@ export default function ComparePage() {
                       href="/contact"
                       className="block w-full bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-3 rounded-lg text-center transition-colors mt-6"
                     >
-                      Get Quote from {insurer.name}
+                      Get Started
                     </Link>
                   </div>
                 </div>
