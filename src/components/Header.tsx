@@ -95,18 +95,6 @@ export default function Header() {
             >
               Blog
             </Link>
-            <Link
-              href="/about"
-              className="px-3 py-2 text-sm font-medium text-slate-700 hover:text-emerald-600 transition-colors"
-            >
-              About
-            </Link>
-            <Link
-              href="/contact"
-              className="px-3 py-2 text-sm font-medium text-slate-700 hover:text-emerald-600 transition-colors"
-            >
-              Contact
-            </Link>
           </nav>
 
           {/* Desktop CTA Button */}
@@ -115,7 +103,7 @@ export default function Header() {
               href="/contact"
               className="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-2 px-6 rounded-lg transition-all duration-200 flex items-center gap-2"
             >
-              Get a Free Quote
+              Get a Quote
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
@@ -200,27 +188,12 @@ export default function Header() {
             >
               Blog
             </Link>
-            <Link
-              href="/about"
-              className="block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100 rounded-lg"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              About
-            </Link>
-            <Link
-              href="/contact"
-              className="block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100 rounded-lg"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Contact
-            </Link>
-
             <a
               href="/contact"
               className="block w-full mt-4 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-2 px-4 rounded-lg text-center transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Get a Free Quote
+              Get a Quote
             </a>
           </nav>
         )}
