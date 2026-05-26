@@ -108,7 +108,7 @@ export default function HomePage() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
               <Link href="#quote-form" className="rounded-lg bg-emerald-600 px-6 sm:px-8 py-3 font-semibold text-white text-center transition-all hover:bg-emerald-700 hover:shadow-lg">
-                Get a Free Quote
+                Get a Quote
               </Link>
               <Link href="/compare" className="rounded-lg border-2 border-white px-6 sm:px-8 py-3 font-semibold text-white text-center transition-all hover:bg-white/10 hover:shadow-lg">
                 Compare Insurers
@@ -419,7 +419,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-4">
-              Get Your Free Quote Today
+              Get Your Quote Today
             </h2>
             <p className="text-slate-600 text-lg max-w-2xl mx-auto">
               Complete the form below and we'll show you quotes from NZ's top rental insurers. Takes less than 2 minutes.

@@ -39,7 +39,7 @@ export default function TenantsPage() {
               href="/contact"
               className="inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-50 text-emerald-600 font-bold py-3 px-8 rounded-lg transition-colors"
             >
-              Get a Free Quote
+              Get a Quote
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
@@ -412,13 +412,13 @@ export default function TenantsPage() {
               <div className="bg-gradient-to-r from-emerald-50 to-slate-50 p-8 rounded-lg border-2 border-emerald-200 mt-8">
                 <h2 className="text-2xl font-bold text-slate-900 mb-3">Ready to Protect Your Rental Home?</h2>
                 <p className="text-slate-700 mb-6">
-                  Get a free, no-obligation quote from our comparison service. It takes just 2 minutes and you'll see quotes from multiple providers to find the best price and coverage for your needs.
+                  Get a no-obligation quote from our comparison service. It takes just 2 minutes and you'll see quotes from multiple providers to find the best price and coverage for your needs.
                 </p>
                 <Link
                   href="/contact"
                   className="inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-8 rounded-lg transition-colors"
                 >
-                  Get Your Free Quote Now
+                  Get Your Quote Now
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                   </svg>
@@ -430,7 +430,7 @@ export default function TenantsPage() {
             <div className="lg:col-span-1">
               <div className="sticky top-20 space-y-6">
                 <div className="bg-emerald-50 rounded-lg p-6 border-2 border-emerald-200">
-                  <h3 className="font-bold text-slate-900 mb-4">Get Your Free Quote</h3>
+                  <h3 className="font-bold text-slate-900 mb-4">Get Your Quote</h3>
                   <QuoteForm compact={true} />
                 </div>
 

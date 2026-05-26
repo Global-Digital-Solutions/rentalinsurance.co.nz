@@ -162,7 +162,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
             disabled={isSubmitting}
             className="w-full bg-emerald-600 hover:bg-emerald-700 disabled:bg-slate-400 text-white font-bold py-3.5 rounded-xl transition-all duration-200 flex items-center justify-center gap-2 shadow-lg shadow-emerald-600/25 hover:shadow-emerald-600/40 hover:-translate-y-0.5"
           >
-            {isSubmitting ? 'Sending...' : 'Get My Free Quote'}
+            {isSubmitting ? 'Sending...' : 'Get My Quote'}
             {!isSubmitting && (
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -195,7 +195,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
             </svg>
           </div>
         </div>
-        <h3 className="text-2xl font-bold text-white mb-2">Free, No-Obligation Quote</h3>
+        <h3 className="text-2xl font-bold text-white mb-2">No-Obligation Quote</h3>
         <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-white">
           <span className="flex items-center gap-1.5">
             <svg className="w-4 h-4 text-emerald-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" /></svg>
@@ -380,7 +380,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
             disabled={isSubmitting}
             className="w-full bg-emerald-600 hover:bg-emerald-700 disabled:bg-slate-400 text-white font-bold py-4 rounded-xl transition-all duration-200 flex items-center justify-center gap-2 text-lg shadow-lg shadow-emerald-600/25 hover:shadow-emerald-600/40 hover:-translate-y-0.5"
           >
-            {isSubmitting ? 'Sending...' : 'Get My Free Quote'}
+            {isSubmitting ? 'Sending...' : 'Get My Quote'}
             {!isSubmitting && (
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />

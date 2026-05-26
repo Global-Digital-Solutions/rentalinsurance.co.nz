@@ -71,7 +71,7 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-bold text-slate-900 mb-6">How Our Comparison Service Works</h2>
               <p className="text-lg text-slate-600 leading-relaxed mb-6">
-                Getting a rental insurance quote through RentalInsurance.co.nz is simple, fast, and completely free. Here's how the process works:
+                Getting a rental insurance quote through RentalInsurance.co.nz is simple, fast, and straightforward. Here's how the process works:
               </p>
               <div className="space-y-4">
                 <div className="flex gap-4">
@@ -145,10 +145,10 @@ export default function AboutPage() {
                 <div className="bg-slate-50 rounded-lg p-6 border border-slate-200">
                   <div className="flex items-center gap-3 mb-3">
                     <Heart className="w-6 h-6 text-emerald-600 flex-shrink-0" />
-                    <h3 className="text-lg font-bold text-slate-900">Completely Free</h3>
+                    <h3 className="text-lg font-bold text-slate-900">No Fees, Ever</h3>
                   </div>
                   <p className="text-slate-600">
-                    There are no hidden fees, no broker commissions, and no charges for using our service. Getting quotes is completely free with no obligation to purchase.
+                    There are no hidden fees, no broker commissions, and no charges for using our service. Getting quotes carries no obligation to purchase.
                   </p>
                 </div>
                 <div className="bg-slate-50 rounded-lg p-6 border border-slate-200">
@@ -356,13 +356,13 @@ export default function AboutPage() {
                 Ready to Compare Rental Insurance?
               </h2>
               <p className="text-lg text-slate-600 mb-8">
-                Get instant quotes from New Zealand's top insurers. It takes less than 2 minutes and is completely free with no obligation to purchase.
+                Get instant quotes from New Zealand's top insurers. It takes less than 2 minutes with no obligation to purchase.
               </p>
               <Link
                 href="/"
                 className="inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-4 px-10 rounded-lg transition-colors text-lg"
               >
-                Get Your Free Quote Today
+                Get Your Quote Today
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>

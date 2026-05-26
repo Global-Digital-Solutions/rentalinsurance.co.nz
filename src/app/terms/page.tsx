@@ -23,7 +23,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">2. Service Description</h2>
             <p>
-              Rental Insurance is a free comparison service that helps you obtain rental insurance quotes from multiple NZ insurers. We are not an insurance provider ourselves, but a referral service.
+              Rental Insurance is a no-fee comparison service that helps you obtain rental insurance quotes from multiple NZ insurers. We are not an insurance provider ourselves, but a referral service.
             </p>
           </section>
 

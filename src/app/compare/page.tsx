@@ -534,7 +534,7 @@ export default function ComparePage() {
               href="/contact"
               className="inline-block bg-white text-emerald-600 hover:bg-slate-100 font-bold py-3 px-8 rounded-lg transition-colors text-lg"
             >
-              Get Your Free Comparison Today
+              Get Your Comparison Today
             </Link>
           </div>
         </div>

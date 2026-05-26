@@ -134,7 +134,7 @@ export default function ContactPage() {
                     Takes less than 2 minutes
                   </div>
                   <h2 className="text-2xl font-bold text-slate-900 mb-2">
-                    Get a Free Quote
+                    Get a Quote
                   </h2>
                   <p className="text-slate-600">
                     Fill out the form below and we'll contact you with quotes from NZ's leading insurers.
@@ -223,7 +223,7 @@ export default function ContactPage() {
                 </svg>
               </summary>
               <p className="mt-4 text-slate-600 text-sm">
-                No! Our quote service is completely free. We never charge broker fees or comparison fees.
+                No! Our quote service has no fees. We never charge broker fees or comparison fees.
               </p>
             </details>
 
@@ -254,7 +254,7 @@ export default function ContactPage() {
             '@context': 'https://schema.org',
             '@type': 'ContactPage',
             name: 'Contact RentalInsurance.co.nz',
-            description: 'Get free rental insurance quotes from NZ\'s top providers',
+            description: 'Get rental insurance quotes from NZ\'s top providers',
             mainEntity: {
               '@type': 'Organization',
               name: 'RentalInsurance.co.nz',

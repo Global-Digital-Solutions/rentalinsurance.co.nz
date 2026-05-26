@@ -91,7 +91,7 @@ export default function BlogPage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <BookOpen className="w-12 h-12 text-emerald-600 mx-auto mb-4" />
           <h2 className="text-3xl font-bold text-slate-900 mb-4">
-            Want a Free Quote?
+            Want a Quote?
           </h2>
           <p className="text-slate-600 mb-8">
             After learning about rental insurance, get instant quotes from our top insurers.
@@ -100,7 +100,7 @@ export default function BlogPage() {
             href="/contact"
             className="inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-8 rounded-lg transition-colors"
           >
-            Get Your Free Quote
+            Get a Quote
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>

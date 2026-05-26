@@ -8,14 +8,14 @@ export default function CTABanner() {
           Ready to Protect Your Belongings?
         </h2>
         <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-          Get a free, no-obligation quote from NZ's leading rental insurers. Takes less than 2 minutes.
+          Get a no-obligation quote from NZ's leading rental insurers. Takes less than 2 minutes.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
             href="/contact"
             className="inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-100 text-emerald-600 font-bold py-3 px-8 rounded-lg transition-colors"
           >
-            Get a Free Quote
+            Get a Quote
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>
