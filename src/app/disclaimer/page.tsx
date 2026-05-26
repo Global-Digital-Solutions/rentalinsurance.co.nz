@@ -34,7 +34,7 @@ export default function DisclaimerPage() {
             <div>
               <h2 className="text-xl font-bold text-slate-900 mb-3">1. How We Operate</h2>
               <p>
-                RentalInsurance.co.nz is operated by Cover4You, a referral and lead-generation service based in New Zealand. Our service connects renters, tenants, and flatmates with licensed insurance advisers and brokers who can provide rental and contents insurance quotes.
+                RentalInsurance.co.nz is operated by Cover4You, a NZ owned &amp; operated referral and lead-generation service. Our service connects renters, tenants, and flatmates with licensed insurance advisers and brokers who can provide rental and contents insurance quotes.
               </p>
               <p className="mt-3">
                 We are not an insurance provider, insurer, or underwriter. We do not issue, administer, or underwrite any insurance policy. When you submit an enquiry through this Site, your information is shared with one or more licensed insurance advisers who will contact you to discuss your needs and provide quotes.
