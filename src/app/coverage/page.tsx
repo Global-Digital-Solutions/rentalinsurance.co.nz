@@ -388,7 +388,9 @@ export default function CoveragePage() {
               Complete the form below and we'll match you with the right coverage from NZ's leading insurers. It takes less than 2 minutes.
             </p>
           </div>
-          <QuoteForm compact={true} />
+          <div className="rounded-2xl border-2 border-emerald-400 bg-white shadow-lg shadow-emerald-100/60 p-6 sm:p-8">
+            <QuoteForm compact={true} />
+          </div>
         </div>
       </section>
 
