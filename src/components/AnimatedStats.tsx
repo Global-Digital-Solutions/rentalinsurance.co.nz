@@ -19,7 +19,7 @@ export default function AnimatedStats() {
 
   const stats: Stat[] = [
     { value: '1 in 3', label: 'Renters Uninsured', suffix: '', prefix: '', icon: AlertTriangle, isSpecial: true },
-    { value: '10', label: 'Insurers Compared', suffix: '+', prefix: '', icon: Building2 },
+    { value: 'Up to 10+', label: 'Insurers Compared', suffix: '', prefix: '', icon: Building2, isSpecial: true },
     { value: '0', label: 'Comparison Fees', suffix: '', prefix: '$', icon: DollarSign },
     { value: '$67/mo', label: 'Avg. Monthly Cost', suffix: '', prefix: '', icon: TrendingDown, isSpecial: true },
     { value: '2', label: 'Liability Cover', suffix: 'M', prefix: '$', icon: Landmark },
