@@ -8,14 +8,15 @@ export default function Footer() {
     <footer className="bg-slate-900 text-slate-200 mt-12 sm:mt-20">
       {/* Main Footer Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
+
           {/* About Column */}
-          <div>
+          <div className="sm:col-span-2 lg:col-span-1">
             <div className="mb-4">
               <Logo variant="white" />
             </div>
             <p className="text-sm text-slate-400 mb-4">
-              Simplifying rental insurance comparison for NZ tenants and renters.
+              Helping renters and tenants across New Zealand find the right contents insurance — no fees, no fuss.
             </p>
             <p className="text-xs text-slate-500">
               Powered by <span className="text-emerald-400 font-medium">Cover4You</span>
@@ -38,12 +39,12 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/compare" className="text-slate-400 hover:text-emerald-400 transition-colors">
-                  Compare
+                  Compare Insurers
                 </Link>
               </li>
               <li>
                 <Link href="/blog" className="text-slate-400 hover:text-emerald-400 transition-colors">
-                  Guides & Resources
+                  Guides &amp; Resources
                 </Link>
               </li>
               <li>
@@ -53,7 +54,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/contact" className="text-slate-400 hover:text-emerald-400 transition-colors">
-                  Contact
+                  Get a Quote
                 </Link>
               </li>
             </ul>
@@ -61,44 +62,54 @@ export default function Footer() {
 
           {/* Sectors */}
           <div>
-            <h3 className="font-bold text-white mb-4">Sectors</h3>
+            <h3 className="font-bold text-white mb-4">Who We Help</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link
-                  href="/sectors/tenants"
-                  className="text-slate-400 hover:text-emerald-400 transition-colors"
-                >
+                <Link href="/sectors/tenants" className="text-slate-400 hover:text-emerald-400 transition-colors">
                   Tenants
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/sectors/students"
-                  className="text-slate-400 hover:text-emerald-400 transition-colors"
-                >
+                <Link href="/sectors/students" className="text-slate-400 hover:text-emerald-400 transition-colors">
                   Students
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/sectors/flatmates"
-                  className="text-slate-400 hover:text-emerald-400 transition-colors"
-                >
+                <Link href="/sectors/flatmates" className="text-slate-400 hover:text-emerald-400 transition-colors">
                   Flatmates
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/sectors/families"
-                  className="text-slate-400 hover:text-emerald-400 transition-colors"
-                >
+                <Link href="/sectors/families" className="text-slate-400 hover:text-emerald-400 transition-colors">
                   Families
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Contact Info */}
+          {/* Legal */}
+          <div>
+            <h3 className="font-bold text-white mb-4">Legal</h3>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <Link href="/privacy" className="text-slate-400 hover:text-emerald-400 transition-colors">
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link href="/terms" className="text-slate-400 hover:text-emerald-400 transition-colors">
+                  Terms of Service
+                </Link>
+              </li>
+              <li>
+                <Link href="/disclaimer" className="text-slate-400 hover:text-emerald-400 transition-colors">
+                  Disclaimer
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Contact */}
           <div>
             <h3 className="font-bold text-white mb-4">Contact Us</h3>
             <ul className="space-y-3 text-sm">
@@ -118,40 +129,29 @@ export default function Footer() {
             </ul>
             <div className="mt-4 space-y-2 text-xs text-slate-500">
               <p>FSP Compliant</p>
-              <p>Instant Quotes</p>
+              <p>No Fees to Compare</p>
               <p>Expert Support</p>
               <p>100% Secure</p>
             </div>
           </div>
         </div>
 
-        {/* Disclaimer */}
+        {/* Disclaimer — full width */}
         <div className="border-t border-slate-800 pt-8 mt-8">
-          <div className="max-w-4xl mx-auto">
-            <h4 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-3">How This Site Works</h4>
-            <p className="text-xs text-slate-500 leading-relaxed mb-3">
-              RentalInsurance.co.nz is committed to helping New Zealanders find the right rental insurance through honest, transparent comparison. We may receive compensation from insurers, brokers or underwriters when you enquire about or purchase a product through our site. However, this does not influence our reviews, ratings or recommendations. Our editorial team personally reviews all brokers, underwriters and insurers featured on this website to ensure we provide accurate, impartial information that saves you time and money.
-            </p>
-            <p className="text-xs text-slate-500 leading-relaxed">
-              The information on this website is general in nature and does not constitute financial or insurance advice. We recommend you read the relevant Product Disclosure Statement (PDS) and consider your own circumstances before purchasing any insurance product. All efforts are made to keep information current and accurate, but we do not guarantee completeness or suitability for your individual needs.
-            </p>
-          </div>
+          <h4 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-3">How This Site Works</h4>
+          <p className="text-xs text-slate-500 leading-relaxed mb-3">
+            RentalInsurance.co.nz is operated by Cover4You, a referral service that connects renters and tenants with licensed insurance advisers and brokers. We are not an insurance provider, underwriter, or licensed financial adviser. The advisers we refer you to are licensed under the Financial Markets Conduct Act 2013 (FMCA) and bound by their own professional obligations. Cover4You itself is not regulated under the FMCA.
+          </p>
+          <p className="text-xs text-slate-500 leading-relaxed mb-3">
+            We may receive referral compensation from insurers or advisers when an enquiry is made through our site. This does not affect the cost of any product to you. Our editorial content is prepared independently and is not influenced by commercial relationships.
+          </p>
+          <p className="text-xs text-slate-500 leading-relaxed">
+            The information on this site is general in nature and does not constitute financial or insurance advice. We recommend you read the relevant Product Disclosure Statement (PDS) and consider your own circumstances before purchasing any insurance product. All efforts are made to keep information current and accurate, but we do not guarantee completeness or suitability for your individual needs.
+          </p>
         </div>
 
-        {/* Legal Links & Copyright */}
+        {/* Copyright */}
         <div className="border-t border-slate-800 pt-6 mt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4 mb-6">
-            <div className="flex flex-wrap justify-center md:justify-start gap-4 text-xs text-slate-400">
-              <Link href="/privacy" className="hover:text-emerald-400 transition-colors">
-                Privacy Policy
-              </Link>
-              <span>•</span>
-              <Link href="/terms" className="hover:text-emerald-400 transition-colors">
-                Terms of Service
-              </Link>
-            </div>
-          </div>
-
           <div className="text-center text-xs text-slate-500">
             <p>
               Copyright {currentYear} Rental Insurance. All rights reserved. |{' '}
