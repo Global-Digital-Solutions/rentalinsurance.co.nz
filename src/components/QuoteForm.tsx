@@ -148,9 +148,6 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
 
         {/* Hidden Fields */}
         <input type="hidden" name="_subject" value="New Quote Request - RentalInsurance.co.nz" />
-        <input type="hidden" name="_next" value="https://www.rentalinsurance.co.nz/thank-you" />
-        <input type="hidden" name="_cc" value="butlerdarin@gmail.com" />
-        <input type="hidden" name="_captcha" value="false" />
 
         <TurnstileWidget ref={turnstileRef} />
         {error && <p className="text-sm bg-red-50 text-red-700 border border-red-200 rounded-lg px-3 py-2">{error}</p>}
@@ -366,9 +363,6 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
 
         {/* Hidden Fields */}
         <input type="hidden" name="_subject" value="New Quote Request - RentalInsurance.co.nz" />
-        <input type="hidden" name="_next" value="https://www.rentalinsurance.co.nz/thank-you" />
-        <input type="hidden" name="_cc" value="butlerdarin@gmail.com" />
-        <input type="hidden" name="_captcha" value="false" />
 
         <TurnstileWidget ref={turnstileRef} />
         {error && <p className="text-sm bg-red-50 text-red-700 border border-red-200 rounded-lg px-3 py-2">{error}</p>}
