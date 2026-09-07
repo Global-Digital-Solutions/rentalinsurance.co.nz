@@ -373,7 +373,7 @@ export default function TenantsPage() {
                     },
                     {
                       criterion: 'Customer Reviews',
-                      guidance: 'Check independent reviews on Google, Trustpilot, and the Insurance Council. Look for good claims experience feedback.'
+                      guidance: 'Check independent reviews on Google and Trustpilot. Look for good claims experience feedback.'
                     },
                   ].map((item, idx) => (
                     <div key={idx} className="bg-slate-50 p-4 rounded border border-slate-200">

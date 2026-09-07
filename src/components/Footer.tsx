@@ -162,12 +162,12 @@ export default function Footer() {
             <p>
               Copyright {currentYear} Rental Insurance. All rights reserved. |{' '}
               <a
-                href="https://www.icnz.org.nz/"
+                href="https://www.fma.govt.nz/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-emerald-400 hover:text-emerald-300 transition-colors underline"
               >
-                Insurance Council of New Zealand
+                Financial Markets Authority
               </a>
             </p>
           </div>

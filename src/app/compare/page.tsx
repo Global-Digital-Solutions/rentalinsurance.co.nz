@@ -237,7 +237,7 @@ export default function ComparePage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               <div>
                 <p className="text-lg text-slate-700 leading-relaxed mb-6">
-                  The rental insurance market has grown significantly over the past decade as more renters recognize the importance of protecting their personal possessions and liability. The Insurance Council of New Zealand (ICNZ) reports that contents insurance is one of the most commonly purchased insurance products among New Zealand households.
+                  The rental insurance market has grown significantly over the past decade as more renters recognize the importance of protecting their personal possessions and liability. The Financial Markets Authority reports that contents insurance is one of the most commonly purchased insurance products among New Zealand households.
                 </p>
                 <p className="text-lg text-slate-700 leading-relaxed mb-6">
                   The market is served by both large, established insurers with decades of local history and newer, digitally-native providers offering competitive rates and streamlined processes. This competition benefits consumers through improved pricing, online services, and customer service options.
@@ -252,8 +252,8 @@ export default function ComparePage() {
                   <li className="flex gap-3">
                     <span className="text-emerald-600 font-bold text-lg">•</span>
                     <div>
-                      <p className="font-semibold text-slate-900">ICNZ Regulated</p>
-                      <p className="text-sm text-slate-600">All major insurers are members of the Insurance Council of New Zealand, ensuring compliance with industry standards and consumer protection.</p>
+                      <p className="font-semibold text-slate-900">FSP Registered</p>
+                      <p className="text-sm text-slate-600">Major insurers operating in New Zealand are licensed and supervised by the Reserve Bank of New Zealand, with conduct regulated by the Financial Markets Authority.</p>
                     </div>
                   </li>
                   <li className="flex gap-3">
